@@ -1,0 +1,10 @@
+﻿group;sheet;header_row;first_data_row;last_data_row_0_means_dynamic;columns;refs
+A1201B;8.2 General;28;29;58;B,D,E,F,G;LAR,LAS,LAT,LAU,LAV
+A1202A;8.3.1 Inherent Risk Funds;4;5;0;A,B,C,D,E,F,G,H,I,J,K,L,M,N,O;LBB,LBC,LBD,LBE,LBF,LBG,LBH,LBI,LBJ,LBK,LBL,LBM,LBN,LBO,LBP
+A1202B;8.3.2 Inherent Risks Investors;7;8;34;B,D;LBQ,LBR
+A1204;8.5 Physical Presence;3;4;0;A,B,C,D,E;LSK,LSL,LSM,LSN,LSO
+A1205;8.6 Residence & Establishment;4;5;0;A,B,C,D,E,F,G,H,I;LSP,LSQ,LSR,LSS,LST,LSU,LSV,LSW,LSX
+A1206;8.7 Beneficial Owner;4;5;0;A,B;LSY,LSZ
+A1207;8.8 Politically Exposed Person;3;4;0;A,B,C;LTA,LTB,LTC
+A1208;8.9 Geography of Funds Flow;4;5;0;A,B,C,D,E,F,G,H,I,J,K,L,M;LTD,LTE,LTF,LTG,LTH,LTI,LTJ,LTK,LTL,LTM,LTN,LTO,LTP
+A1209;8.10 Transaction Monitoring;3;4;0;A,B,C,D,E;LTQ,LTR,LTS,LTT,LTU

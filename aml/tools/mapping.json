@@ -1,0 +1,4647 @@
+{
+  "scalars": [
+    {
+      "ref": "LAA",
+      "sheet": "8.2 General",
+      "cell": "D3",
+      "group": "A1201A",
+      "element": "A12011",
+      "attribute": "EnumerationLegalStructure",
+      "label_cell": "B3",
+      "label_hash": "840638667"
+    },
+    {
+      "ref": "LAB",
+      "sheet": "8.2 General",
+      "cell": "D5",
+      "group": "A1201A",
+      "element": "A12011",
+      "attribute": "String500",
+      "label_cell": "B5",
+      "label_hash": "1774445322"
+    },
+    {
+      "ref": "LAC",
+      "sheet": "8.2 General",
+      "cell": "D6",
+      "group": "A1201A",
+      "element": "A12011",
+      "attribute": "LEI",
+      "label_cell": "B6",
+      "label_hash": "892179086"
+    },
+    {
+      "ref": "LAD",
+      "sheet": "8.2 General",
+      "cell": "D7",
+      "group": "A1201A",
+      "element": "A12011",
+      "attribute": "EnumerationCountryEEANA",
+      "label_cell": "B7",
+      "label_hash": "1692520932"
+    },
+    {
+      "ref": "LAE",
+      "sheet": "8.2 General",
+      "cell": "D8",
+      "group": "A1201A",
+      "element": "A12011",
+      "attribute": "String500",
+      "label_cell": "B8",
+      "label_hash": "1131924430"
+    },
+    {
+      "ref": "LAF",
+      "sheet": "8.2 General",
+      "cell": "D9",
+      "group": "A1201A",
+      "element": "A12011",
+      "attribute": "String500",
+      "label_cell": "B9",
+      "label_hash": "1261450077"
+    },
+    {
+      "ref": "LAG",
+      "sheet": "8.2 General",
+      "cell": "D10",
+      "group": "A1201A",
+      "element": "A12011",
+      "attribute": "LEI",
+      "label_cell": "B10",
+      "label_hash": "720369034"
+    },
+    {
+      "ref": "LAH",
+      "sheet": "8.2 General",
+      "cell": "D11",
+      "group": "A1201A",
+      "element": "A12011",
+      "attribute": "EnumerationCountry",
+      "label_cell": "B11",
+      "label_hash": "855172215"
+    },
+    {
+      "ref": "LAI",
+      "sheet": "8.2 General",
+      "cell": "D12",
+      "group": "A1201A",
+      "element": "A12011",
+      "attribute": "String500",
+      "label_cell": "B12",
+      "label_hash": "443302216"
+    },
+    {
+      "ref": "LAJ",
+      "sheet": "8.2 General",
+      "cell": "D14",
+      "group": "A1201A",
+      "element": "A12011",
+      "attribute": "String500",
+      "label_cell": "B14",
+      "label_hash": "1549903747"
+    },
+    {
+      "ref": "LAK",
+      "sheet": "8.2 General",
+      "cell": "D15",
+      "group": "A1201A",
+      "element": "A12011",
+      "attribute": "LEI",
+      "label_cell": "B15",
+      "label_hash": "718613737"
+    },
+    {
+      "ref": "LAL",
+      "sheet": "8.2 General",
+      "cell": "D16",
+      "group": "A1201A",
+      "element": "A12011",
+      "attribute": "EnumerationCountryEEANA",
+      "label_cell": "B16",
+      "label_hash": "282810737"
+    },
+    {
+      "ref": "LAM",
+      "sheet": "8.2 General",
+      "cell": "D17",
+      "group": "A1201A",
+      "element": "A12011",
+      "attribute": "String500",
+      "label_cell": "B17",
+      "label_hash": "206302917"
+    },
+    {
+      "ref": "LAN",
+      "sheet": "8.2 General",
+      "cell": "D18",
+      "group": "A1201A",
+      "element": "A12011",
+      "attribute": "String500",
+      "label_cell": "B18",
+      "label_hash": "1591119992"
+    },
+    {
+      "ref": "LAO",
+      "sheet": "8.2 General",
+      "cell": "D19",
+      "group": "A1201A",
+      "element": "A12011",
+      "attribute": "LEI",
+      "label_cell": "B19",
+      "label_hash": "1411849286"
+    },
+    {
+      "ref": "LAP",
+      "sheet": "8.2 General",
+      "cell": "D20",
+      "group": "A1201A",
+      "element": "A12011",
+      "attribute": "EnumerationCountry",
+      "label_cell": "B20",
+      "label_hash": "1670635785"
+    },
+    {
+      "ref": "LAQ",
+      "sheet": "8.2 General",
+      "cell": "D21",
+      "group": "A1201A",
+      "element": "A12011",
+      "attribute": "String500",
+      "label_cell": "B21",
+      "label_hash": "1326489895"
+    },
+    {
+      "ref": "LAW",
+      "sheet": "8.2 General",
+      "cell": "D62",
+      "group": "A1201A",
+      "element": "A12011",
+      "attribute": "EnumerationYesNo",
+      "label_cell": "B62",
+      "label_hash": "887531050"
+    },
+    {
+      "ref": "LAX",
+      "sheet": "8.2 General",
+      "cell": "D65",
+      "group": "A1201A",
+      "element": "A12011",
+      "attribute": "String500",
+      "label_cell": "B65",
+      "label_hash": "312600406"
+    },
+    {
+      "ref": "LAY",
+      "sheet": "8.2 General",
+      "cell": "D68",
+      "group": "A1201A",
+      "element": "A12011",
+      "attribute": "String100",
+      "label_cell": "B68",
+      "label_hash": "1692000966"
+    },
+    {
+      "ref": "LAZ",
+      "sheet": "8.2 General",
+      "cell": "E68",
+      "group": "A1201A",
+      "element": "A12011",
+      "attribute": "String100",
+      "label_cell": "B68",
+      "label_hash": "1692000966"
+    },
+    {
+      "ref": "LBA",
+      "sheet": "8.2 General",
+      "cell": "F68",
+      "group": "A1201A",
+      "element": "A12011",
+      "attribute": "EnumerationYesNo",
+      "label_cell": "B68",
+      "label_hash": "1692000966"
+    },
+    {
+      "ref": "LBS",
+      "sheet": "8.3.2 Inherent Risks Investors",
+      "cell": "D40",
+      "group": "A1202C",
+      "element": "A12023",
+      "attribute": "EnumerationYesNo",
+      "label_cell": "B40",
+      "label_hash": "2073630294"
+    },
+    {
+      "ref": "LBT",
+      "sheet": "8.3.2 Inherent Risks Investors",
+      "cell": "D42",
+      "group": "A1202C",
+      "element": "A12023",
+      "attribute": "IntegerValue",
+      "label_cell": "B42",
+      "label_hash": "1280927121"
+    },
+    {
+      "ref": "LBU",
+      "sheet": "8.3.2 Inherent Risks Investors",
+      "cell": "D43",
+      "group": "A1202C",
+      "element": "A12023",
+      "attribute": "IntegerValue",
+      "label_cell": "B43",
+      "label_hash": "1682639584"
+    },
+    {
+      "ref": "LBV",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C5",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationBWRAConducted",
+      "label_cell": "B5",
+      "label_hash": "738847092"
+    },
+    {
+      "ref": "LBW",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C8",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNo",
+      "label_cell": "B8",
+      "label_hash": "739770534"
+    },
+    {
+      "ref": "LBX",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C9",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B9",
+      "label_hash": "1210042584"
+    },
+    {
+      "ref": "LBY",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C10",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationFrequency",
+      "label_cell": "B10",
+      "label_hash": "1471149071"
+    },
+    {
+      "ref": "LBZ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C11",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B11",
+      "label_hash": "1553913321"
+    },
+    {
+      "ref": "LCA",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C12",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B12",
+      "label_hash": "831384861"
+    },
+    {
+      "ref": "LCB",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C16",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B16",
+      "label_hash": "1899793439"
+    },
+    {
+      "ref": "LCC",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C17",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B17",
+      "label_hash": "1837590984"
+    },
+    {
+      "ref": "LCD",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C18",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B18",
+      "label_hash": "1025056210"
+    },
+    {
+      "ref": "LCE",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C19",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B19",
+      "label_hash": "845140119"
+    },
+    {
+      "ref": "LCF",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C20",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B20",
+      "label_hash": "1652532959"
+    },
+    {
+      "ref": "LCG",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C21",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B21",
+      "label_hash": "765175071"
+    },
+    {
+      "ref": "LCH",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C22",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B22",
+      "label_hash": "1694100254"
+    },
+    {
+      "ref": "LCI",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C23",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B23",
+      "label_hash": "1705557943"
+    },
+    {
+      "ref": "LCJ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C24",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B24",
+      "label_hash": "1887047733"
+    },
+    {
+      "ref": "LCK",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C25",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B25",
+      "label_hash": "1699186303"
+    },
+    {
+      "ref": "LCL",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C26",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B26",
+      "label_hash": "1948497788"
+    },
+    {
+      "ref": "LCM",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C27",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B27",
+      "label_hash": "2110073219"
+    },
+    {
+      "ref": "LCN",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C28",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B28",
+      "label_hash": "47977870"
+    },
+    {
+      "ref": "LCO",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C29",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B29",
+      "label_hash": "495928992"
+    },
+    {
+      "ref": "LCP",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C30",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B30",
+      "label_hash": "2027150561"
+    },
+    {
+      "ref": "LCQ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C31",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B31",
+      "label_hash": "76517104"
+    },
+    {
+      "ref": "LCR",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C32",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B32",
+      "label_hash": "1493994058"
+    },
+    {
+      "ref": "LCS",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D16",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B16",
+      "label_hash": "1899793439"
+    },
+    {
+      "ref": "LCT",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D17",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B17",
+      "label_hash": "1837590984"
+    },
+    {
+      "ref": "LCU",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D18",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B18",
+      "label_hash": "1025056210"
+    },
+    {
+      "ref": "LCV",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D19",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B19",
+      "label_hash": "845140119"
+    },
+    {
+      "ref": "LCW",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D20",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B20",
+      "label_hash": "1652532959"
+    },
+    {
+      "ref": "LCX",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D21",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B21",
+      "label_hash": "765175071"
+    },
+    {
+      "ref": "LCY",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D22",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B22",
+      "label_hash": "1694100254"
+    },
+    {
+      "ref": "LCZ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D23",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B23",
+      "label_hash": "1705557943"
+    },
+    {
+      "ref": "LDA",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D24",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B24",
+      "label_hash": "1887047733"
+    },
+    {
+      "ref": "LDB",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D25",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B25",
+      "label_hash": "1699186303"
+    },
+    {
+      "ref": "LDC",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D26",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B26",
+      "label_hash": "1948497788"
+    },
+    {
+      "ref": "LDD",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D27",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B27",
+      "label_hash": "2110073219"
+    },
+    {
+      "ref": "LDE",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D28",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B28",
+      "label_hash": "47977870"
+    },
+    {
+      "ref": "LDF",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D29",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B29",
+      "label_hash": "495928992"
+    },
+    {
+      "ref": "LDG",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D30",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B30",
+      "label_hash": "2027150561"
+    },
+    {
+      "ref": "LDH",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D31",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B31",
+      "label_hash": "76517104"
+    },
+    {
+      "ref": "LDI",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D32",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B32",
+      "label_hash": "1493994058"
+    },
+    {
+      "ref": "LDJ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C35",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B35",
+      "label_hash": "385922308"
+    },
+    {
+      "ref": "LDK",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C36",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B36",
+      "label_hash": "1892107278"
+    },
+    {
+      "ref": "LDL",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C37",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B37",
+      "label_hash": "1270555607"
+    },
+    {
+      "ref": "LDM",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C38",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B38",
+      "label_hash": "277284675"
+    },
+    {
+      "ref": "LDN",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C39",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B39",
+      "label_hash": "76517104"
+    },
+    {
+      "ref": "LDO",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C40",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B40",
+      "label_hash": "636548474"
+    },
+    {
+      "ref": "LDP",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C41",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNo",
+      "label_cell": "B41",
+      "label_hash": "46301148"
+    },
+    {
+      "ref": "LDQ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C47",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B47",
+      "label_hash": "2015598937"
+    },
+    {
+      "ref": "LDR",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C48",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B48",
+      "label_hash": "4319014"
+    },
+    {
+      "ref": "LDS",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C49",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B49",
+      "label_hash": "1023201054"
+    },
+    {
+      "ref": "LDT",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C50",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B50",
+      "label_hash": "2051726412"
+    },
+    {
+      "ref": "LDU",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C51",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B51",
+      "label_hash": "343610481"
+    },
+    {
+      "ref": "LDV",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C52",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B52",
+      "label_hash": "880441845"
+    },
+    {
+      "ref": "LDW",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C53",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B53",
+      "label_hash": "2007878155"
+    },
+    {
+      "ref": "LDX",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C54",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B54",
+      "label_hash": "509598728"
+    },
+    {
+      "ref": "LDY",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C55",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B55",
+      "label_hash": "1809413983"
+    },
+    {
+      "ref": "LDZ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C56",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B56",
+      "label_hash": "1679930019"
+    },
+    {
+      "ref": "LEA",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C57",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B57",
+      "label_hash": "180708802"
+    },
+    {
+      "ref": "LEB",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C58",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B58",
+      "label_hash": "1287919970"
+    },
+    {
+      "ref": "LEC",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C59",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B59",
+      "label_hash": "983771579"
+    },
+    {
+      "ref": "LED",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C60",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B60",
+      "label_hash": "1046447086"
+    },
+    {
+      "ref": "LEE",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C61",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B61",
+      "label_hash": "7452496"
+    },
+    {
+      "ref": "LEF",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C62",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B62",
+      "label_hash": "1340764510"
+    },
+    {
+      "ref": "LEG",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C63",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B63",
+      "label_hash": "83251771"
+    },
+    {
+      "ref": "LEH",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C64",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B64",
+      "label_hash": "1146299372"
+    },
+    {
+      "ref": "LEI",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C65",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B65",
+      "label_hash": "819994185"
+    },
+    {
+      "ref": "LEJ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C66",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B66",
+      "label_hash": "1878767588"
+    },
+    {
+      "ref": "LEK",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D47",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B47",
+      "label_hash": "2015598937"
+    },
+    {
+      "ref": "LEL",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D48",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B48",
+      "label_hash": "4319014"
+    },
+    {
+      "ref": "LEM",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D49",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B49",
+      "label_hash": "1023201054"
+    },
+    {
+      "ref": "LEN",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D50",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B50",
+      "label_hash": "2051726412"
+    },
+    {
+      "ref": "LEO",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D51",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B51",
+      "label_hash": "343610481"
+    },
+    {
+      "ref": "LEP",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D52",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B52",
+      "label_hash": "880441845"
+    },
+    {
+      "ref": "LEQ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D53",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B53",
+      "label_hash": "2007878155"
+    },
+    {
+      "ref": "LER",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D54",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B54",
+      "label_hash": "509598728"
+    },
+    {
+      "ref": "LES",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D55",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B55",
+      "label_hash": "1809413983"
+    },
+    {
+      "ref": "LET",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D56",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B56",
+      "label_hash": "1679930019"
+    },
+    {
+      "ref": "LEU",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D57",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B57",
+      "label_hash": "180708802"
+    },
+    {
+      "ref": "LEV",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D58",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B58",
+      "label_hash": "1287919970"
+    },
+    {
+      "ref": "LEW",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D59",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B59",
+      "label_hash": "983771579"
+    },
+    {
+      "ref": "LEX",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D60",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B60",
+      "label_hash": "1046447086"
+    },
+    {
+      "ref": "LEY",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D61",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B61",
+      "label_hash": "7452496"
+    },
+    {
+      "ref": "LEZ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D62",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B62",
+      "label_hash": "1340764510"
+    },
+    {
+      "ref": "LFA",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D63",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B63",
+      "label_hash": "83251771"
+    },
+    {
+      "ref": "LFB",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D64",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B64",
+      "label_hash": "1146299372"
+    },
+    {
+      "ref": "LFC",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D65",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B65",
+      "label_hash": "819994185"
+    },
+    {
+      "ref": "LFD",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D66",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B66",
+      "label_hash": "1878767588"
+    },
+    {
+      "ref": "LFE",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C69",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B69",
+      "label_hash": "1799445586"
+    },
+    {
+      "ref": "LFF",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C70",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B70",
+      "label_hash": "1521768552"
+    },
+    {
+      "ref": "LFG",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C71",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B71",
+      "label_hash": "1904801907"
+    },
+    {
+      "ref": "LFH",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C72",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B72",
+      "label_hash": "2093291191"
+    },
+    {
+      "ref": "LFI",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C73",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B73",
+      "label_hash": "2009781336"
+    },
+    {
+      "ref": "LFJ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C75",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationFrequency",
+      "label_cell": "B75",
+      "label_hash": "1083461588"
+    },
+    {
+      "ref": "LFK",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C79",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B79",
+      "label_hash": "449572829"
+    },
+    {
+      "ref": "LFL",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C80",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B80",
+      "label_hash": "1464100973"
+    },
+    {
+      "ref": "LFM",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C81",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B81",
+      "label_hash": "1988283607"
+    },
+    {
+      "ref": "LFN",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C82",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B82",
+      "label_hash": "1708997244"
+    },
+    {
+      "ref": "LFO",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C83",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B83",
+      "label_hash": "380525302"
+    },
+    {
+      "ref": "LFP",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D79",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B79",
+      "label_hash": "449572829"
+    },
+    {
+      "ref": "LFQ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D80",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B80",
+      "label_hash": "1464100973"
+    },
+    {
+      "ref": "LFR",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D81",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B81",
+      "label_hash": "1988283607"
+    },
+    {
+      "ref": "LFS",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D82",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B82",
+      "label_hash": "1708997244"
+    },
+    {
+      "ref": "LFT",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D83",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B83",
+      "label_hash": "380525302"
+    },
+    {
+      "ref": "LFU",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C88",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationCDD",
+      "label_cell": "B88",
+      "label_hash": "1281383680"
+    },
+    {
+      "ref": "LFV",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C89",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationCDD",
+      "label_cell": "B89",
+      "label_hash": "1843301630"
+    },
+    {
+      "ref": "LFW",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C90",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationCDD",
+      "label_cell": "B90",
+      "label_hash": "239872886"
+    },
+    {
+      "ref": "LFX",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C91",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationCDD",
+      "label_cell": "B91",
+      "label_hash": "290477190"
+    },
+    {
+      "ref": "LFY",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C92",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationCDD",
+      "label_cell": "B92",
+      "label_hash": "2048635571"
+    },
+    {
+      "ref": "LFZ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C93",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationCDD",
+      "label_cell": "B93",
+      "label_hash": "513869623"
+    },
+    {
+      "ref": "LGA",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D88",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationCDD",
+      "label_cell": "B88",
+      "label_hash": "1281383680"
+    },
+    {
+      "ref": "LGB",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D89",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationCDD",
+      "label_cell": "B89",
+      "label_hash": "1843301630"
+    },
+    {
+      "ref": "LGC",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D90",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationCDD",
+      "label_cell": "B90",
+      "label_hash": "239872886"
+    },
+    {
+      "ref": "LGD",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D91",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationCDD",
+      "label_cell": "B91",
+      "label_hash": "290477190"
+    },
+    {
+      "ref": "LGE",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D92",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationCDD",
+      "label_cell": "B92",
+      "label_hash": "2048635571"
+    },
+    {
+      "ref": "LGF",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D93",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationCDD",
+      "label_cell": "B93",
+      "label_hash": "513869623"
+    },
+    {
+      "ref": "LGG",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C96",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNo",
+      "label_cell": "B96",
+      "label_hash": "177461107"
+    },
+    {
+      "ref": "LGH",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D96",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNo",
+      "label_cell": "B96",
+      "label_hash": "177461107"
+    },
+    {
+      "ref": "LGI",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C98",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationFrequency",
+      "label_cell": "B98",
+      "label_hash": "1393704543"
+    },
+    {
+      "ref": "LGJ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C99",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationFrequency",
+      "label_cell": "B99",
+      "label_hash": "2049025752"
+    },
+    {
+      "ref": "LGK",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C100",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationFrequency",
+      "label_cell": "B100",
+      "label_hash": "1978708663"
+    },
+    {
+      "ref": "LGL",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C101",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationFrequency",
+      "label_cell": "B101",
+      "label_hash": "2452184"
+    },
+    {
+      "ref": "LGM",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C102",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationFrequency",
+      "label_cell": "B102",
+      "label_hash": "1390031435"
+    },
+    {
+      "ref": "LGN",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D98",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationFrequency",
+      "label_cell": "B98",
+      "label_hash": "1393704543"
+    },
+    {
+      "ref": "LGO",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D99",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationFrequency",
+      "label_cell": "B99",
+      "label_hash": "2049025752"
+    },
+    {
+      "ref": "LGP",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D100",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationFrequency",
+      "label_cell": "B100",
+      "label_hash": "1978708663"
+    },
+    {
+      "ref": "LGQ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D101",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationFrequency",
+      "label_cell": "B101",
+      "label_hash": "2452184"
+    },
+    {
+      "ref": "LGR",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D102",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationFrequency",
+      "label_cell": "B102",
+      "label_hash": "1390031435"
+    },
+    {
+      "ref": "LGS",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C104",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B104",
+      "label_hash": "1355524720"
+    },
+    {
+      "ref": "LGT",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D104",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B104",
+      "label_hash": "1355524720"
+    },
+    {
+      "ref": "LGU",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C107",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B107",
+      "label_hash": "725850943"
+    },
+    {
+      "ref": "LGV",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C108",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B108",
+      "label_hash": "553687269"
+    },
+    {
+      "ref": "LGW",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C109",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B109",
+      "label_hash": "886586389"
+    },
+    {
+      "ref": "LGX",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C110",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B110",
+      "label_hash": "1928692989"
+    },
+    {
+      "ref": "LGY",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D107",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B107",
+      "label_hash": "725850943"
+    },
+    {
+      "ref": "LGZ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D108",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B108",
+      "label_hash": "553687269"
+    },
+    {
+      "ref": "LHA",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D109",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B109",
+      "label_hash": "886586389"
+    },
+    {
+      "ref": "LHB",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D110",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B110",
+      "label_hash": "1928692989"
+    },
+    {
+      "ref": "LHC",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C113",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B113",
+      "label_hash": "757985860"
+    },
+    {
+      "ref": "LHD",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C114",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B114",
+      "label_hash": "460233053"
+    },
+    {
+      "ref": "LHE",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D113",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B113",
+      "label_hash": "757985860"
+    },
+    {
+      "ref": "LHF",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D114",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B114",
+      "label_hash": "460233053"
+    },
+    {
+      "ref": "LHG",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C117",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DecimalValue",
+      "label_cell": "B117",
+      "label_hash": "425020038"
+    },
+    {
+      "ref": "LHH",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C118",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DecimalValue",
+      "label_cell": "B118",
+      "label_hash": "394844484"
+    },
+    {
+      "ref": "LHI",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C119",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DecimalValue",
+      "label_cell": "B119",
+      "label_hash": "2452184"
+    },
+    {
+      "ref": "LHJ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C120",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DecimalValue",
+      "label_cell": "B120",
+      "label_hash": "420924238"
+    },
+    {
+      "ref": "LHK",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D117",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DecimalValue",
+      "label_cell": "B117",
+      "label_hash": "425020038"
+    },
+    {
+      "ref": "LHL",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D118",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DecimalValue",
+      "label_cell": "B118",
+      "label_hash": "394844484"
+    },
+    {
+      "ref": "LHM",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D119",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DecimalValue",
+      "label_cell": "B119",
+      "label_hash": "2452184"
+    },
+    {
+      "ref": "LHN",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D120",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DecimalValue",
+      "label_cell": "B120",
+      "label_hash": "420924238"
+    },
+    {
+      "ref": "LHO",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C122",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B122",
+      "label_hash": "792731794"
+    },
+    {
+      "ref": "LHP",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D122",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B122",
+      "label_hash": "792731794"
+    },
+    {
+      "ref": "LHQ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C125",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "PercentageValue",
+      "label_cell": "B125",
+      "label_hash": "912644999"
+    },
+    {
+      "ref": "LHR",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C126",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "PercentageValue",
+      "label_cell": "B126",
+      "label_hash": "1978708663"
+    },
+    {
+      "ref": "LHS",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C127",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "PercentageValue",
+      "label_cell": "B127",
+      "label_hash": "2452184"
+    },
+    {
+      "ref": "LHT",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D125",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "PercentageValue",
+      "label_cell": "B125",
+      "label_hash": "912644999"
+    },
+    {
+      "ref": "LHU",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D126",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "PercentageValue",
+      "label_cell": "B126",
+      "label_hash": "1978708663"
+    },
+    {
+      "ref": "LHV",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D127",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "PercentageValue",
+      "label_cell": "B127",
+      "label_hash": "2452184"
+    },
+    {
+      "ref": "LHW",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C130",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B130",
+      "label_hash": "700766425"
+    },
+    {
+      "ref": "LHX",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C131",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B131",
+      "label_hash": "1628086517"
+    },
+    {
+      "ref": "LHY",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C132",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B132",
+      "label_hash": "601507047"
+    },
+    {
+      "ref": "LHZ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C133",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B133",
+      "label_hash": "270354697"
+    },
+    {
+      "ref": "LIA",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D132",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B132",
+      "label_hash": "601507047"
+    },
+    {
+      "ref": "LIB",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D133",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B133",
+      "label_hash": "270354697"
+    },
+    {
+      "ref": "LIC",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C138",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B138",
+      "label_hash": "1981177934"
+    },
+    {
+      "ref": "LID",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C139",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationFrequency",
+      "label_cell": "B139",
+      "label_hash": "1856008064"
+    },
+    {
+      "ref": "LIE",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D138",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B138",
+      "label_hash": "1981177934"
+    },
+    {
+      "ref": "LIF",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D139",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationFrequency",
+      "label_cell": "B139",
+      "label_hash": "1856008064"
+    },
+    {
+      "ref": "LIG",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C142",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B142",
+      "label_hash": "2016637792"
+    },
+    {
+      "ref": "LIH",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C143",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B143",
+      "label_hash": "1404609399"
+    },
+    {
+      "ref": "LII",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C144",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B144",
+      "label_hash": "74195260"
+    },
+    {
+      "ref": "LIJ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C145",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B145",
+      "label_hash": "2027301300"
+    },
+    {
+      "ref": "LIK",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C146",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B146",
+      "label_hash": "2110073219"
+    },
+    {
+      "ref": "LIL",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C147",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B147",
+      "label_hash": "295033668"
+    },
+    {
+      "ref": "LIM",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C148",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B148",
+      "label_hash": "1631194507"
+    },
+    {
+      "ref": "LIN",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D142",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B142",
+      "label_hash": "2016637792"
+    },
+    {
+      "ref": "LIO",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D143",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B143",
+      "label_hash": "1404609399"
+    },
+    {
+      "ref": "LIP",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D144",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B144",
+      "label_hash": "74195260"
+    },
+    {
+      "ref": "LIQ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D145",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B145",
+      "label_hash": "2027301300"
+    },
+    {
+      "ref": "LIR",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D146",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B146",
+      "label_hash": "2110073219"
+    },
+    {
+      "ref": "LIS",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D147",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B147",
+      "label_hash": "295033668"
+    },
+    {
+      "ref": "LIT",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D148",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B148",
+      "label_hash": "1631194507"
+    },
+    {
+      "ref": "LIU",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C150",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationMonitoringApproach",
+      "label_cell": "B150",
+      "label_hash": "604731773"
+    },
+    {
+      "ref": "LIV",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C151",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationModelValidation",
+      "label_cell": "B151",
+      "label_hash": "665786603"
+    },
+    {
+      "ref": "LIW",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C152",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B152",
+      "label_hash": "2008171"
+    },
+    {
+      "ref": "LIX",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D150",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B150",
+      "label_hash": "604731773"
+    },
+    {
+      "ref": "LIY",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D151",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationMonitoringApproach",
+      "label_cell": "B151",
+      "label_hash": "665786603"
+    },
+    {
+      "ref": "LIZ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D152",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationModelValidation",
+      "label_cell": "B152",
+      "label_hash": "2008171"
+    },
+    {
+      "ref": "LJA",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C154",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B154",
+      "label_hash": "1588499589"
+    },
+    {
+      "ref": "LJB",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D154",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B154",
+      "label_hash": "1588499589"
+    },
+    {
+      "ref": "LJC",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C157",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B157",
+      "label_hash": "2020808454"
+    },
+    {
+      "ref": "LJD",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C158",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B158",
+      "label_hash": "59733447"
+    },
+    {
+      "ref": "LJE",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C159",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B159",
+      "label_hash": "1022426218"
+    },
+    {
+      "ref": "LJF",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C160",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B160",
+      "label_hash": "1487416784"
+    },
+    {
+      "ref": "LJG",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C161",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B161",
+      "label_hash": "76017736"
+    },
+    {
+      "ref": "LJH",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C162",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B162",
+      "label_hash": "2118087349"
+    },
+    {
+      "ref": "LJI",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C163",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B163",
+      "label_hash": "76517104"
+    },
+    {
+      "ref": "LJJ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C164",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B164",
+      "label_hash": "2122788987"
+    },
+    {
+      "ref": "LJK",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D157",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B157",
+      "label_hash": "2020808454"
+    },
+    {
+      "ref": "LJL",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D158",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B158",
+      "label_hash": "59733447"
+    },
+    {
+      "ref": "LJM",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D161",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B161",
+      "label_hash": "76017736"
+    },
+    {
+      "ref": "LJN",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D162",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B162",
+      "label_hash": "2118087349"
+    },
+    {
+      "ref": "LJO",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D163",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B163",
+      "label_hash": "76517104"
+    },
+    {
+      "ref": "LJP",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D164",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B164",
+      "label_hash": "2122788987"
+    },
+    {
+      "ref": "LJQ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C166",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B166",
+      "label_hash": "565730629"
+    },
+    {
+      "ref": "LJR",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C167",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B167",
+      "label_hash": "1307421599"
+    },
+    {
+      "ref": "LJS",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C168",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B168",
+      "label_hash": "2045941472"
+    },
+    {
+      "ref": "LJT",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C169",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationDetectionTime",
+      "label_cell": "B169",
+      "label_hash": "1683526163"
+    },
+    {
+      "ref": "LJU",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D166",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B166",
+      "label_hash": "565730629"
+    },
+    {
+      "ref": "LJV",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D167",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B167",
+      "label_hash": "1307421599"
+    },
+    {
+      "ref": "LJW",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D168",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B168",
+      "label_hash": "2045941472"
+    },
+    {
+      "ref": "LJX",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D169",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationDetectionTime",
+      "label_cell": "B169",
+      "label_hash": "1683526163"
+    },
+    {
+      "ref": "LJY",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C172",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B172",
+      "label_hash": "1387750479"
+    },
+    {
+      "ref": "LJZ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C177",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B177",
+      "label_hash": "195422839"
+    },
+    {
+      "ref": "LKA",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C178",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B178",
+      "label_hash": "550354251"
+    },
+    {
+      "ref": "LKB",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C179",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "PercentageValue",
+      "label_cell": "B179",
+      "label_hash": "1133043437"
+    },
+    {
+      "ref": "LKC",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C180",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B180",
+      "label_hash": "1815380415"
+    },
+    {
+      "ref": "LKD",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C181",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B181",
+      "label_hash": "2032185690"
+    },
+    {
+      "ref": "LKE",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C182",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B182",
+      "label_hash": "1625706833"
+    },
+    {
+      "ref": "LKF",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C183",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B183",
+      "label_hash": "1059540111"
+    },
+    {
+      "ref": "LKG",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C184",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B184",
+      "label_hash": "2032742661"
+    },
+    {
+      "ref": "LKH",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C185",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DecimalValue",
+      "label_cell": "B185",
+      "label_hash": "1766499786"
+    },
+    {
+      "ref": "LKI",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C186",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B186",
+      "label_hash": "1443577462"
+    },
+    {
+      "ref": "LKJ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C187",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DecimalValue",
+      "label_cell": "B187",
+      "label_hash": "936311529"
+    },
+    {
+      "ref": "LKK",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D177",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B177",
+      "label_hash": "195422839"
+    },
+    {
+      "ref": "LKL",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D178",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B178",
+      "label_hash": "550354251"
+    },
+    {
+      "ref": "LKM",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D179",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "PercentageValue",
+      "label_cell": "B179",
+      "label_hash": "1133043437"
+    },
+    {
+      "ref": "LKN",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D180",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B180",
+      "label_hash": "1815380415"
+    },
+    {
+      "ref": "LKO",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D181",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B181",
+      "label_hash": "2032185690"
+    },
+    {
+      "ref": "LKP",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D182",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B182",
+      "label_hash": "1625706833"
+    },
+    {
+      "ref": "LKQ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D183",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B183",
+      "label_hash": "1059540111"
+    },
+    {
+      "ref": "LKR",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D184",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B184",
+      "label_hash": "2032742661"
+    },
+    {
+      "ref": "LKS",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D185",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DecimalValue",
+      "label_cell": "B185",
+      "label_hash": "1766499786"
+    },
+    {
+      "ref": "LKT",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D186",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B186",
+      "label_hash": "1443577462"
+    },
+    {
+      "ref": "LKU",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D187",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DecimalValue",
+      "label_cell": "B187",
+      "label_hash": "936311529"
+    },
+    {
+      "ref": "LKV",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C191",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNo",
+      "label_cell": "B191",
+      "label_hash": "1755416898"
+    },
+    {
+      "ref": "LKW",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C195",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B195",
+      "label_hash": "1549319147"
+    },
+    {
+      "ref": "LKX",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C196",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B196",
+      "label_hash": "973217486"
+    },
+    {
+      "ref": "LKY",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C197",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B197",
+      "label_hash": "2014993732"
+    },
+    {
+      "ref": "LKZ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C198",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B198",
+      "label_hash": "747774027"
+    },
+    {
+      "ref": "LLA",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C199",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B199",
+      "label_hash": "1980260071"
+    },
+    {
+      "ref": "LLB",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C200",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B200",
+      "label_hash": "1899793439"
+    },
+    {
+      "ref": "LLC",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C201",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B201",
+      "label_hash": "207694753"
+    },
+    {
+      "ref": "LLD",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C202",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B202",
+      "label_hash": "1720426881"
+    },
+    {
+      "ref": "LLE",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C203",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B203",
+      "label_hash": "585428131"
+    },
+    {
+      "ref": "LLF",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C204",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B204",
+      "label_hash": "424122303"
+    },
+    {
+      "ref": "LLG",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C205",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B205",
+      "label_hash": "1791543088"
+    },
+    {
+      "ref": "LLH",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C206",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B206",
+      "label_hash": "382882081"
+    },
+    {
+      "ref": "LLI",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C207",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B207",
+      "label_hash": "1167655784"
+    },
+    {
+      "ref": "LLJ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C208",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B208",
+      "label_hash": "449738432"
+    },
+    {
+      "ref": "LLK",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D195",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B195",
+      "label_hash": "1549319147"
+    },
+    {
+      "ref": "LLL",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D196",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B196",
+      "label_hash": "973217486"
+    },
+    {
+      "ref": "LLM",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D197",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B197",
+      "label_hash": "2014993732"
+    },
+    {
+      "ref": "LLN",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D198",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B198",
+      "label_hash": "747774027"
+    },
+    {
+      "ref": "LLO",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D199",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B199",
+      "label_hash": "1980260071"
+    },
+    {
+      "ref": "LLP",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D200",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B200",
+      "label_hash": "1899793439"
+    },
+    {
+      "ref": "LLQ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D201",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B201",
+      "label_hash": "207694753"
+    },
+    {
+      "ref": "LLR",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D202",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B202",
+      "label_hash": "1720426881"
+    },
+    {
+      "ref": "LLS",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D203",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B203",
+      "label_hash": "585428131"
+    },
+    {
+      "ref": "LLT",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D204",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B204",
+      "label_hash": "424122303"
+    },
+    {
+      "ref": "LLU",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D205",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B205",
+      "label_hash": "1791543088"
+    },
+    {
+      "ref": "LLV",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D206",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B206",
+      "label_hash": "382882081"
+    },
+    {
+      "ref": "LLW",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D207",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B207",
+      "label_hash": "1167655784"
+    },
+    {
+      "ref": "LLX",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D208",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B208",
+      "label_hash": "449738432"
+    },
+    {
+      "ref": "LLY",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C211",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DecimalValue",
+      "label_cell": "B211",
+      "label_hash": "1597025068"
+    },
+    {
+      "ref": "LLZ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C215",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNo",
+      "label_cell": "B215",
+      "label_hash": "1413692325"
+    },
+    {
+      "ref": "LMA",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C216",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DecimalValue",
+      "label_cell": "B216",
+      "label_hash": "1772583534"
+    },
+    {
+      "ref": "LMB",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D215",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNo",
+      "label_cell": "B215",
+      "label_hash": "1413692325"
+    },
+    {
+      "ref": "LMC",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D216",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DecimalValue",
+      "label_cell": "B216",
+      "label_hash": "1772583534"
+    },
+    {
+      "ref": "LMD",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C219",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNo",
+      "label_cell": "B219",
+      "label_hash": "533925649"
+    },
+    {
+      "ref": "LME",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C220",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNo",
+      "label_cell": "B220",
+      "label_hash": "809880783"
+    },
+    {
+      "ref": "LMF",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C221",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNo",
+      "label_cell": "B221",
+      "label_hash": "1487433647"
+    },
+    {
+      "ref": "LMG",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C222",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNo",
+      "label_cell": "B222",
+      "label_hash": "76517104"
+    },
+    {
+      "ref": "LMH",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C223",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B223",
+      "label_hash": "1661430485"
+    },
+    {
+      "ref": "LMI",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D219",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNo",
+      "label_cell": "B219",
+      "label_hash": "533925649"
+    },
+    {
+      "ref": "LMJ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D220",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNo",
+      "label_cell": "B220",
+      "label_hash": "809880783"
+    },
+    {
+      "ref": "LMK",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D221",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNo",
+      "label_cell": "B221",
+      "label_hash": "1487433647"
+    },
+    {
+      "ref": "LML",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D222",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNo",
+      "label_cell": "B222",
+      "label_hash": "76517104"
+    },
+    {
+      "ref": "LMM",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D223",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B223",
+      "label_hash": "1661430485"
+    },
+    {
+      "ref": "LMN",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C226",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNo",
+      "label_cell": "B226",
+      "label_hash": "1273487561"
+    },
+    {
+      "ref": "LMO",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C227",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNo",
+      "label_cell": "B227",
+      "label_hash": "1950000346"
+    },
+    {
+      "ref": "LMP",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D226",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNo",
+      "label_cell": "B226",
+      "label_hash": "1273487561"
+    },
+    {
+      "ref": "LMQ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D227",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNo",
+      "label_cell": "B227",
+      "label_hash": "1950000346"
+    },
+    {
+      "ref": "LMR",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C230",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B230",
+      "label_hash": "1072961842"
+    },
+    {
+      "ref": "LMS",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C231",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B231",
+      "label_hash": "791676615"
+    },
+    {
+      "ref": "LMT",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C232",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B232",
+      "label_hash": "2033000994"
+    },
+    {
+      "ref": "LMU",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D230",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B230",
+      "label_hash": "1072961842"
+    },
+    {
+      "ref": "LMV",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D231",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B231",
+      "label_hash": "791676615"
+    },
+    {
+      "ref": "LMW",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D232",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B232",
+      "label_hash": "2033000994"
+    },
+    {
+      "ref": "LMX",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C235",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B235",
+      "label_hash": "65718865"
+    },
+    {
+      "ref": "LMY",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C236",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DecimalValue",
+      "label_cell": "B236",
+      "label_hash": "1747602265"
+    },
+    {
+      "ref": "LMZ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C241",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationOutsource",
+      "label_cell": "B241",
+      "label_hash": "24731827"
+    },
+    {
+      "ref": "LNA",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C242",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationOutsource",
+      "label_cell": "B242",
+      "label_hash": "235263333"
+    },
+    {
+      "ref": "LNB",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C243",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationOutsource",
+      "label_cell": "B243",
+      "label_hash": "880441845"
+    },
+    {
+      "ref": "LNC",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C244",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationOutsource",
+      "label_cell": "B244",
+      "label_hash": "1306640399"
+    },
+    {
+      "ref": "LND",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C245",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationOutsource",
+      "label_cell": "B245",
+      "label_hash": "1424215748"
+    },
+    {
+      "ref": "LNE",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C246",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationOutsource",
+      "label_cell": "B246",
+      "label_hash": "1287919970"
+    },
+    {
+      "ref": "LNF",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C247",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationOutsource",
+      "label_cell": "B247",
+      "label_hash": "447501236"
+    },
+    {
+      "ref": "LNG",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C248",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationOutsource",
+      "label_cell": "B248",
+      "label_hash": "1340764510"
+    },
+    {
+      "ref": "LNH",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C249",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationOutsource",
+      "label_cell": "B249",
+      "label_hash": "1011577919"
+    },
+    {
+      "ref": "LNI",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C250",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationOutsource",
+      "label_cell": "B250",
+      "label_hash": "18422217"
+    },
+    {
+      "ref": "LNJ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C251",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationOutsource",
+      "label_cell": "B251",
+      "label_hash": "729709613"
+    },
+    {
+      "ref": "LNK",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C252",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B252",
+      "label_hash": "1290477889"
+    },
+    {
+      "ref": "LNL",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D241",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationOutsource",
+      "label_cell": "B241",
+      "label_hash": "24731827"
+    },
+    {
+      "ref": "LNM",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D242",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationOutsource",
+      "label_cell": "B242",
+      "label_hash": "235263333"
+    },
+    {
+      "ref": "LNN",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D243",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationOutsource",
+      "label_cell": "B243",
+      "label_hash": "880441845"
+    },
+    {
+      "ref": "LNO",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D244",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationOutsource",
+      "label_cell": "B244",
+      "label_hash": "1306640399"
+    },
+    {
+      "ref": "LNP",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D245",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationOutsource",
+      "label_cell": "B245",
+      "label_hash": "1424215748"
+    },
+    {
+      "ref": "LNQ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D246",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationOutsource",
+      "label_cell": "B246",
+      "label_hash": "1287919970"
+    },
+    {
+      "ref": "LNR",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D247",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationOutsource",
+      "label_cell": "B247",
+      "label_hash": "447501236"
+    },
+    {
+      "ref": "LNS",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D248",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationOutsource",
+      "label_cell": "B248",
+      "label_hash": "1340764510"
+    },
+    {
+      "ref": "LNT",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D249",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationOutsource",
+      "label_cell": "B249",
+      "label_hash": "1011577919"
+    },
+    {
+      "ref": "LNU",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D250",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationOutsource",
+      "label_cell": "B250",
+      "label_hash": "18422217"
+    },
+    {
+      "ref": "LNV",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D251",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationOutsource",
+      "label_cell": "B251",
+      "label_hash": "729709613"
+    },
+    {
+      "ref": "LNW",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D252",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B252",
+      "label_hash": "1290477889"
+    },
+    {
+      "ref": "LNX",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C255",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "PercentageValue",
+      "label_cell": "B255",
+      "label_hash": "1902530903"
+    },
+    {
+      "ref": "LNY",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C256",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B256",
+      "label_hash": "1211143384"
+    },
+    {
+      "ref": "LNZ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D255",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "PercentageValue",
+      "label_cell": "B255",
+      "label_hash": "1902530903"
+    },
+    {
+      "ref": "LOA",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D256",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B256",
+      "label_hash": "1211143384"
+    },
+    {
+      "ref": "LOB",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C258",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B258",
+      "label_hash": "390841210"
+    },
+    {
+      "ref": "LOC",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C259",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B259",
+      "label_hash": "570253193"
+    },
+    {
+      "ref": "LOD",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C260",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B260",
+      "label_hash": "2055947971"
+    },
+    {
+      "ref": "LOE",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C261",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B261",
+      "label_hash": "1802528110"
+    },
+    {
+      "ref": "LOF",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C262",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B262",
+      "label_hash": "1404835929"
+    },
+    {
+      "ref": "LOG",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D258",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B258",
+      "label_hash": "390841210"
+    },
+    {
+      "ref": "LOH",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D259",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B259",
+      "label_hash": "570253193"
+    },
+    {
+      "ref": "LOI",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D260",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B260",
+      "label_hash": "2055947971"
+    },
+    {
+      "ref": "LOJ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D261",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B261",
+      "label_hash": "1802528110"
+    },
+    {
+      "ref": "LOK",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D262",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B262",
+      "label_hash": "1404835929"
+    },
+    {
+      "ref": "LOL",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C265",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B265",
+      "label_hash": "1396634375"
+    },
+    {
+      "ref": "LOM",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C266",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B266",
+      "label_hash": "1142570223"
+    },
+    {
+      "ref": "LON",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D265",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B265",
+      "label_hash": "1396634375"
+    },
+    {
+      "ref": "LOO",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D266",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B266",
+      "label_hash": "1142570223"
+    },
+    {
+      "ref": "LOP",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C271",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "PercentageValue",
+      "label_cell": "B271",
+      "label_hash": "531221994"
+    },
+    {
+      "ref": "LOQ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C272",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "PercentageValue",
+      "label_cell": "B272",
+      "label_hash": "1454833862"
+    },
+    {
+      "ref": "LOR",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C273",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "PercentageValue",
+      "label_cell": "B273",
+      "label_hash": "1596642414"
+    },
+    {
+      "ref": "LOS",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C274",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "PercentageValue",
+      "label_cell": "B274",
+      "label_hash": "1368848164"
+    },
+    {
+      "ref": "LOT",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C275",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "PercentageValue",
+      "label_cell": "B275",
+      "label_hash": "76517104"
+    },
+    {
+      "ref": "LOU",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D271",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "PercentageValue",
+      "label_cell": "B271",
+      "label_hash": "531221994"
+    },
+    {
+      "ref": "LOV",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D272",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "PercentageValue",
+      "label_cell": "B272",
+      "label_hash": "1454833862"
+    },
+    {
+      "ref": "LOW",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D273",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "PercentageValue",
+      "label_cell": "B273",
+      "label_hash": "1596642414"
+    },
+    {
+      "ref": "LOX",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D274",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "PercentageValue",
+      "label_cell": "B274",
+      "label_hash": "1368848164"
+    },
+    {
+      "ref": "LOY",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D275",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "PercentageValue",
+      "label_cell": "B275",
+      "label_hash": "76517104"
+    },
+    {
+      "ref": "LOZ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C278",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B278",
+      "label_hash": "565803125"
+    },
+    {
+      "ref": "LPA",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C283",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B283",
+      "label_hash": "816777597"
+    },
+    {
+      "ref": "LPB",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C284",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B284",
+      "label_hash": "782924878"
+    },
+    {
+      "ref": "LPC",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C285",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B285",
+      "label_hash": "879047402"
+    },
+    {
+      "ref": "LPD",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C286",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B286",
+      "label_hash": "559241562"
+    },
+    {
+      "ref": "LPE",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C287",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B287",
+      "label_hash": "746252736"
+    },
+    {
+      "ref": "LPF",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C288",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B288",
+      "label_hash": "186464138"
+    },
+    {
+      "ref": "LPG",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C289",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B289",
+      "label_hash": "2093448417"
+    },
+    {
+      "ref": "LPH",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C290",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B290",
+      "label_hash": "556452828"
+    },
+    {
+      "ref": "LPI",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C291",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B291",
+      "label_hash": "1881693956"
+    },
+    {
+      "ref": "LPJ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C292",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B292",
+      "label_hash": "5096075"
+    },
+    {
+      "ref": "LPK",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C293",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B293",
+      "label_hash": "1446035469"
+    },
+    {
+      "ref": "LPL",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C294",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNo",
+      "label_cell": "B294",
+      "label_hash": "818245780"
+    },
+    {
+      "ref": "LPM",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C295",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B295",
+      "label_hash": "1764957583"
+    },
+    {
+      "ref": "LPN",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D283",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B283",
+      "label_hash": "816777597"
+    },
+    {
+      "ref": "LPO",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D284",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B284",
+      "label_hash": "782924878"
+    },
+    {
+      "ref": "LPP",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D285",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B285",
+      "label_hash": "879047402"
+    },
+    {
+      "ref": "LPQ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D286",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B286",
+      "label_hash": "559241562"
+    },
+    {
+      "ref": "LPR",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D287",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B287",
+      "label_hash": "746252736"
+    },
+    {
+      "ref": "LPS",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D288",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B288",
+      "label_hash": "186464138"
+    },
+    {
+      "ref": "LPT",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D289",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B289",
+      "label_hash": "2093448417"
+    },
+    {
+      "ref": "LPU",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D290",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B290",
+      "label_hash": "556452828"
+    },
+    {
+      "ref": "LPV",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D291",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B291",
+      "label_hash": "1881693956"
+    },
+    {
+      "ref": "LPW",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D292",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B292",
+      "label_hash": "5096075"
+    },
+    {
+      "ref": "LPX",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D293",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B293",
+      "label_hash": "1446035469"
+    },
+    {
+      "ref": "LPY",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D295",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B295",
+      "label_hash": "1764957583"
+    },
+    {
+      "ref": "LPZ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C298",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationFrequency",
+      "label_cell": "B298",
+      "label_hash": "1872198132"
+    },
+    {
+      "ref": "LQA",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D298",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationFrequency",
+      "label_cell": "B298",
+      "label_hash": "1872198132"
+    },
+    {
+      "ref": "LQB",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C300",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B300",
+      "label_hash": "720250472"
+    },
+    {
+      "ref": "LQC",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C306",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B306",
+      "label_hash": "816777597"
+    },
+    {
+      "ref": "LQD",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C307",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B307",
+      "label_hash": "782924878"
+    },
+    {
+      "ref": "LQE",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C308",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B308",
+      "label_hash": "879047402"
+    },
+    {
+      "ref": "LQF",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C309",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B309",
+      "label_hash": "559241562"
+    },
+    {
+      "ref": "LQG",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C310",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B310",
+      "label_hash": "746252736"
+    },
+    {
+      "ref": "LQH",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C311",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B311",
+      "label_hash": "186464138"
+    },
+    {
+      "ref": "LQI",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C312",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B312",
+      "label_hash": "777569128"
+    },
+    {
+      "ref": "LQJ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C313",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B313",
+      "label_hash": "556452828"
+    },
+    {
+      "ref": "LQK",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C314",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B314",
+      "label_hash": "1881693956"
+    },
+    {
+      "ref": "LQL",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C315",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B315",
+      "label_hash": "5096075"
+    },
+    {
+      "ref": "LQM",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C316",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "DateValue",
+      "label_cell": "B316",
+      "label_hash": "1446035469"
+    },
+    {
+      "ref": "LQN",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C317",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNo",
+      "label_cell": "B317",
+      "label_hash": "818245780"
+    },
+    {
+      "ref": "LQO",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C318",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B318",
+      "label_hash": "1764957583"
+    },
+    {
+      "ref": "LQP",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D306",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B306",
+      "label_hash": "816777597"
+    },
+    {
+      "ref": "LQQ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D307",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B307",
+      "label_hash": "782924878"
+    },
+    {
+      "ref": "LQR",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D308",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B308",
+      "label_hash": "879047402"
+    },
+    {
+      "ref": "LQS",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D309",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B309",
+      "label_hash": "559241562"
+    },
+    {
+      "ref": "LQT",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D310",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B310",
+      "label_hash": "746252736"
+    },
+    {
+      "ref": "LQU",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D311",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B311",
+      "label_hash": "186464138"
+    },
+    {
+      "ref": "LQV",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D312",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B312",
+      "label_hash": "777569128"
+    },
+    {
+      "ref": "LQW",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D313",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B313",
+      "label_hash": "556452828"
+    },
+    {
+      "ref": "LQX",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D314",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B314",
+      "label_hash": "1881693956"
+    },
+    {
+      "ref": "LQY",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D315",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B315",
+      "label_hash": "5096075"
+    },
+    {
+      "ref": "LQZ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D316",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B316",
+      "label_hash": "1446035469"
+    },
+    {
+      "ref": "LRA",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D318",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B318",
+      "label_hash": "1764957583"
+    },
+    {
+      "ref": "LRB",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C321",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationFrequency",
+      "label_cell": "B321",
+      "label_hash": "805054581"
+    },
+    {
+      "ref": "LRC",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D321",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationFrequency",
+      "label_cell": "B321",
+      "label_hash": "805054581"
+    },
+    {
+      "ref": "LRD",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C324",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNo",
+      "label_cell": "B324",
+      "label_hash": "1899793439"
+    },
+    {
+      "ref": "LRE",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C325",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNo",
+      "label_cell": "B325",
+      "label_hash": "1837590984"
+    },
+    {
+      "ref": "LRF",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C326",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNo",
+      "label_cell": "B326",
+      "label_hash": "537424550"
+    },
+    {
+      "ref": "LRG",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C327",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNo",
+      "label_cell": "B327",
+      "label_hash": "17478703"
+    },
+    {
+      "ref": "LRH",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C328",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNo",
+      "label_cell": "B328",
+      "label_hash": "76517104"
+    },
+    {
+      "ref": "LRI",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C329",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B329",
+      "label_hash": "1026593944"
+    },
+    {
+      "ref": "LRJ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D324",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B324",
+      "label_hash": "1899793439"
+    },
+    {
+      "ref": "LRK",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D325",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B325",
+      "label_hash": "1837590984"
+    },
+    {
+      "ref": "LRL",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D326",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B326",
+      "label_hash": "537424550"
+    },
+    {
+      "ref": "LRM",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D327",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B327",
+      "label_hash": "17478703"
+    },
+    {
+      "ref": "LRN",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D329",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B329",
+      "label_hash": "1026593944"
+    },
+    {
+      "ref": "LRO",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C335",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationFrequency",
+      "label_cell": "B335",
+      "label_hash": "1899793439"
+    },
+    {
+      "ref": "LRP",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C336",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationFrequency",
+      "label_cell": "B336",
+      "label_hash": "1837590984"
+    },
+    {
+      "ref": "LRQ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C337",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationFrequency",
+      "label_cell": "B337",
+      "label_hash": "537424550"
+    },
+    {
+      "ref": "LRR",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C338",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationFrequency",
+      "label_cell": "B338",
+      "label_hash": "17478703"
+    },
+    {
+      "ref": "LRS",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D335",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationFrequency",
+      "label_cell": "B335",
+      "label_hash": "1899793439"
+    },
+    {
+      "ref": "LRT",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D336",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationFrequency",
+      "label_cell": "B336",
+      "label_hash": "1837590984"
+    },
+    {
+      "ref": "LRU",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D337",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationFrequency",
+      "label_cell": "B337",
+      "label_hash": "537424550"
+    },
+    {
+      "ref": "LRV",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "D338",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationFrequency",
+      "label_cell": "B338",
+      "label_hash": "17478703"
+    },
+    {
+      "ref": "LRW",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C340",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNo",
+      "label_cell": "B340",
+      "label_hash": "302693416"
+    },
+    {
+      "ref": "LRX",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C341",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNo",
+      "label_cell": "B341",
+      "label_hash": "464289613"
+    },
+    {
+      "ref": "LRY",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C342",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationFrequency",
+      "label_cell": "B342",
+      "label_hash": "657263045"
+    },
+    {
+      "ref": "LRZ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C343",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNo",
+      "label_cell": "B343",
+      "label_hash": "1330788433"
+    },
+    {
+      "ref": "LSA",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C344",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "EnumerationYesNoNA",
+      "label_cell": "B344",
+      "label_hash": "1387572890"
+    },
+    {
+      "ref": "LSB",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C345",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "String500",
+      "label_cell": "B345",
+      "label_hash": "123317415"
+    },
+    {
+      "ref": "LSC",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C351",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "PercentageValue",
+      "label_cell": "B351",
+      "label_hash": "66563"
+    },
+    {
+      "ref": "LSD",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C352",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "PercentageValue",
+      "label_cell": "B352",
+      "label_hash": "158731779"
+    },
+    {
+      "ref": "LSE",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C353",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "PercentageValue",
+      "label_cell": "B353",
+      "label_hash": "2556034"
+    },
+    {
+      "ref": "LSF",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C354",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "PercentageValue",
+      "label_cell": "B354",
+      "label_hash": "1361244929"
+    },
+    {
+      "ref": "LSG",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C355",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "PercentageValue",
+      "label_cell": "B355",
+      "label_hash": "841775554"
+    },
+    {
+      "ref": "LSH",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C357",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "PercentageValue",
+      "label_cell": "B357",
+      "label_hash": "2119956532"
+    },
+    {
+      "ref": "LSI",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C359",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B359",
+      "label_hash": "375912221"
+    },
+    {
+      "ref": "LSJ",
+      "sheet": "8.4 Mitigation & Control",
+      "cell": "C360",
+      "group": "A1203A",
+      "element": "A12031",
+      "attribute": "IntegerValue",
+      "label_cell": "B360",
+      "label_hash": "264339013"
+    }
+  ],
+  "tables": [
+    [
+      "A1201B",
+      "8.2 General",
+      28,
+      29,
+      58,
+      "B,D,E,F,G",
+      "LAR,LAS,LAT,LAU,LAV"
+    ],
+    [
+      "A1202A",
+      "8.3.1 Inherent Risk Funds",
+      4,
+      5,
+      0,
+      "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O",
+      "LBB,LBC,LBD,LBE,LBF,LBG,LBH,LBI,LBJ,LBK,LBL,LBM,LBN,LBO,LBP"
+    ],
+    [
+      "A1202B",
+      "8.3.2 Inherent Risks Investors",
+      7,
+      8,
+      34,
+      "B,D",
+      "LBQ,LBR"
+    ],
+    [
+      "A1204",
+      "8.5 Physical Presence",
+      3,
+      4,
+      0,
+      "A,B,C,D,E",
+      "LSK,LSL,LSM,LSN,LSO"
+    ],
+    [
+      "A1205",
+      "8.6 Residence & Establishment",
+      4,
+      5,
+      0,
+      "A,B,C,D,E,F,G,H,I",
+      "LSP,LSQ,LSR,LSS,LST,LSU,LSV,LSW,LSX"
+    ],
+    [
+      "A1206",
+      "8.7 Beneficial Owner",
+      4,
+      5,
+      0,
+      "A,B",
+      "LSY,LSZ"
+    ],
+    [
+      "A1207",
+      "8.8 Politically Exposed Person",
+      3,
+      4,
+      0,
+      "A,B,C",
+      "LTA,LTB,LTC"
+    ],
+    [
+      "A1208",
+      "8.9 Geography of Funds Flow",
+      4,
+      5,
+      0,
+      "A,B,C,D,E,F,G,H,I,J,K,L,M",
+      "LTD,LTE,LTF,LTG,LTH,LTI,LTJ,LTK,LTL,LTM,LTN,LTO,LTP"
+    ],
+    [
+      "A1209",
+      "8.10 Transaction Monitoring",
+      3,
+      4,
+      0,
+      "A,B,C,D,E",
+      "LTQ,LTR,LTS,LTT,LTU"
+    ]
+  ]
+}

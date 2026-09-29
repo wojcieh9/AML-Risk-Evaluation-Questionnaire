@@ -1,0 +1,1241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+		   xmlns:A12="http://www.centralbank.ie/Schemas/AML/2025/A12"
+		   id="A12FundAdmin" 
+		   version="1.0"
+		   targetNamespace="http://www.centralbank.ie/Schemas/AML/2025/A12"
+		   elementFormDefault="qualified" 
+		   attributeFormDefault="unqualified">
+	
+  <xs:simpleType name="LegalStructure">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Stand_alone_entity"/>
+      <xs:enumeration value="Parent_of_group"/>
+      <xs:enumeration value="Subsidiary_within_group"/>
+      <xs:enumeration value="Branch_of_entity"/>
+    </xs:restriction>
+  </xs:simpleType>
+	
+  <xs:simpleType name="CountriesEEANA">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="00"/>
+      <xs:enumeration value="AT"/>
+      <xs:enumeration value="BE"/>
+      <xs:enumeration value="BG"/>
+      <xs:enumeration value="CY"/>
+      <xs:enumeration value="CZ"/>
+      <xs:enumeration value="DE"/>
+      <xs:enumeration value="DK"/>
+      <xs:enumeration value="EE"/>
+      <xs:enumeration value="ES"/>
+      <xs:enumeration value="FI"/>
+      <xs:enumeration value="FR"/>
+      <xs:enumeration value="GR"/>
+      <xs:enumeration value="HR"/>
+      <xs:enumeration value="HU"/>
+      <xs:enumeration value="IE"/>
+      <xs:enumeration value="IS"/>
+      <xs:enumeration value="IT"/>
+      <xs:enumeration value="LI"/>
+      <xs:enumeration value="LT"/>
+      <xs:enumeration value="LU"/>
+      <xs:enumeration value="LV"/>
+      <xs:enumeration value="MT"/>
+      <xs:enumeration value="NL"/>
+      <xs:enumeration value="NO"/>
+      <xs:enumeration value="PL"/>
+      <xs:enumeration value="PT"/>
+      <xs:enumeration value="RO"/>
+      <xs:enumeration value="SE"/>
+      <xs:enumeration value="SI"/>
+      <xs:enumeration value="SK"/>
+    </xs:restriction>
+  </xs:simpleType>
+	
+  <xs:simpleType name="Country">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="00"/>
+      <xs:enumeration value="AF"/>
+      <xs:enumeration value="AL"/>
+      <xs:enumeration value="DZ"/>
+      <xs:enumeration value="AS"/>
+      <xs:enumeration value="AD"/>
+      <xs:enumeration value="AO"/>
+      <xs:enumeration value="AI"/>
+      <xs:enumeration value="AQ"/>
+      <xs:enumeration value="AG"/>
+      <xs:enumeration value="AR"/>
+      <xs:enumeration value="AM"/>
+      <xs:enumeration value="AW"/>
+      <xs:enumeration value="AU"/>
+      <xs:enumeration value="AT"/>
+      <xs:enumeration value="AZ"/>
+      <xs:enumeration value="BS"/>
+      <xs:enumeration value="BH"/>
+      <xs:enumeration value="BD"/>
+      <xs:enumeration value="BB"/>
+      <xs:enumeration value="BY"/>
+      <xs:enumeration value="BE"/>
+      <xs:enumeration value="BZ"/>
+      <xs:enumeration value="BJ"/>
+      <xs:enumeration value="BM"/>
+      <xs:enumeration value="BT"/>
+      <xs:enumeration value="BO"/>
+      <xs:enumeration value="BQ"/>
+      <xs:enumeration value="BA"/>
+      <xs:enumeration value="BW"/>
+      <xs:enumeration value="BV"/>
+      <xs:enumeration value="BR"/>
+      <xs:enumeration value="IO"/>
+      <xs:enumeration value="BN"/>
+      <xs:enumeration value="BG"/>
+      <xs:enumeration value="BF"/>
+      <xs:enumeration value="BI"/>
+      <xs:enumeration value="CV"/>
+      <xs:enumeration value="KH"/>
+      <xs:enumeration value="CM"/>
+      <xs:enumeration value="CA"/>
+      <xs:enumeration value="KY"/>
+      <xs:enumeration value="CF"/>
+      <xs:enumeration value="TD"/>
+      <xs:enumeration value="CL"/>
+      <xs:enumeration value="CN"/>
+      <xs:enumeration value="CX"/>
+      <xs:enumeration value="CC"/>
+      <xs:enumeration value="CO"/>
+      <xs:enumeration value="KM"/>
+      <xs:enumeration value="CD"/>
+      <xs:enumeration value="CG"/>
+      <xs:enumeration value="CK"/>
+      <xs:enumeration value="CR"/>
+      <xs:enumeration value="HR"/>
+      <xs:enumeration value="CU"/>
+      <xs:enumeration value="CW"/>
+      <xs:enumeration value="CY"/>
+      <xs:enumeration value="CZ"/>
+      <xs:enumeration value="CI"/>
+      <xs:enumeration value="DK"/>
+      <xs:enumeration value="DJ"/>
+      <xs:enumeration value="DM"/>
+      <xs:enumeration value="DO"/>
+      <xs:enumeration value="EC"/>
+      <xs:enumeration value="EG"/>
+      <xs:enumeration value="SV"/>
+      <xs:enumeration value="GQ"/>
+      <xs:enumeration value="ER"/>
+      <xs:enumeration value="EE"/>
+      <xs:enumeration value="SZ"/>
+      <xs:enumeration value="ET"/>
+      <xs:enumeration value="FK"/>
+      <xs:enumeration value="FO"/>
+      <xs:enumeration value="FJ"/>
+      <xs:enumeration value="FI"/>
+      <xs:enumeration value="FR"/>
+      <xs:enumeration value="GF"/>
+      <xs:enumeration value="PF"/>
+      <xs:enumeration value="TF"/>
+      <xs:enumeration value="GA"/>
+      <xs:enumeration value="GM"/>
+      <xs:enumeration value="GE"/>
+      <xs:enumeration value="DE"/>
+      <xs:enumeration value="GH"/>
+      <xs:enumeration value="GI"/>
+      <xs:enumeration value="GR"/>
+      <xs:enumeration value="GL"/>
+      <xs:enumeration value="GD"/>
+      <xs:enumeration value="GP"/>
+      <xs:enumeration value="GU"/>
+      <xs:enumeration value="GT"/>
+      <xs:enumeration value="GG"/>
+      <xs:enumeration value="GN"/>
+      <xs:enumeration value="GW"/>
+      <xs:enumeration value="GY"/>
+      <xs:enumeration value="HT"/>
+      <xs:enumeration value="HM"/>
+      <xs:enumeration value="VA"/>
+      <xs:enumeration value="HN"/>
+      <xs:enumeration value="HK"/>
+      <xs:enumeration value="HU"/>
+      <xs:enumeration value="IS"/>
+      <xs:enumeration value="IN"/>
+      <xs:enumeration value="ID"/>
+      <xs:enumeration value="IR"/>
+      <xs:enumeration value="IQ"/>
+      <xs:enumeration value="IE"/>
+      <xs:enumeration value="IM"/>
+      <xs:enumeration value="IL"/>
+      <xs:enumeration value="IT"/>
+      <xs:enumeration value="JM"/>
+      <xs:enumeration value="JP"/>
+      <xs:enumeration value="JE"/>
+      <xs:enumeration value="JO"/>
+      <xs:enumeration value="KZ"/>
+      <xs:enumeration value="KE"/>
+      <xs:enumeration value="KI"/>
+      <xs:enumeration value="KP"/>
+      <xs:enumeration value="KR"/>
+      <xs:enumeration value="XK"/>
+      <xs:enumeration value="KW"/>
+      <xs:enumeration value="KG"/>
+      <xs:enumeration value="LA"/>
+      <xs:enumeration value="LV"/>
+      <xs:enumeration value="LB"/>
+      <xs:enumeration value="LS"/>
+      <xs:enumeration value="LR"/>
+      <xs:enumeration value="LY"/>
+      <xs:enumeration value="LI"/>
+      <xs:enumeration value="LT"/>
+      <xs:enumeration value="LU"/>
+      <xs:enumeration value="MO"/>
+      <xs:enumeration value="MG"/>
+      <xs:enumeration value="MW"/>
+      <xs:enumeration value="MY"/>
+      <xs:enumeration value="MV"/>
+      <xs:enumeration value="ML"/>
+      <xs:enumeration value="MT"/>
+      <xs:enumeration value="MH"/>
+      <xs:enumeration value="MQ"/>
+      <xs:enumeration value="MR"/>
+      <xs:enumeration value="MU"/>
+      <xs:enumeration value="YT"/>
+      <xs:enumeration value="MX"/>
+      <xs:enumeration value="FM"/>
+      <xs:enumeration value="MD"/>
+      <xs:enumeration value="MC"/>
+      <xs:enumeration value="MN"/>
+      <xs:enumeration value="ME"/>
+      <xs:enumeration value="MS"/>
+      <xs:enumeration value="MA"/>
+      <xs:enumeration value="MZ"/>
+      <xs:enumeration value="MM"/>
+      <xs:enumeration value="NA"/>
+      <xs:enumeration value="NR"/>
+      <xs:enumeration value="NP"/>
+      <xs:enumeration value="NL"/>
+      <xs:enumeration value="NC"/>
+      <xs:enumeration value="NZ"/>
+      <xs:enumeration value="NI"/>
+      <xs:enumeration value="NE"/>
+      <xs:enumeration value="NG"/>
+      <xs:enumeration value="NU"/>
+      <xs:enumeration value="NF"/>
+      <xs:enumeration value="MP"/>
+      <xs:enumeration value="NO"/>
+      <xs:enumeration value="OM"/>
+      <xs:enumeration value="PK"/>
+      <xs:enumeration value="PW"/>
+      <xs:enumeration value="PS"/>
+      <xs:enumeration value="PA"/>
+      <xs:enumeration value="PG"/>
+      <xs:enumeration value="PY"/>
+      <xs:enumeration value="PE"/>
+      <xs:enumeration value="PH"/>
+      <xs:enumeration value="PN"/>
+      <xs:enumeration value="PL"/>
+      <xs:enumeration value="PT"/>
+      <xs:enumeration value="PR"/>
+      <xs:enumeration value="QA"/>
+      <xs:enumeration value="MK"/>
+      <xs:enumeration value="RO"/>
+      <xs:enumeration value="RU"/>
+      <xs:enumeration value="RW"/>
+      <xs:enumeration value="RE"/>
+      <xs:enumeration value="BL"/>
+      <xs:enumeration value="SH"/>
+      <xs:enumeration value="KN"/>
+      <xs:enumeration value="LC"/>
+      <xs:enumeration value="MF"/>
+      <xs:enumeration value="PM"/>
+      <xs:enumeration value="VC"/>
+      <xs:enumeration value="WS"/>
+      <xs:enumeration value="SM"/>
+      <xs:enumeration value="ST"/>
+      <xs:enumeration value="SA"/>
+      <xs:enumeration value="SN"/>
+      <xs:enumeration value="RS"/>
+      <xs:enumeration value="SC"/>
+      <xs:enumeration value="SL"/>
+      <xs:enumeration value="SG"/>
+      <xs:enumeration value="SX"/>
+      <xs:enumeration value="SK"/>
+      <xs:enumeration value="SI"/>
+      <xs:enumeration value="SB"/>
+      <xs:enumeration value="SO"/>
+      <xs:enumeration value="ZA"/>
+      <xs:enumeration value="GS"/>
+      <xs:enumeration value="SS"/>
+      <xs:enumeration value="ES"/>
+      <xs:enumeration value="LK"/>
+      <xs:enumeration value="SD"/>
+      <xs:enumeration value="SR"/>
+      <xs:enumeration value="SJ"/>
+      <xs:enumeration value="SE"/>
+      <xs:enumeration value="CH"/>
+      <xs:enumeration value="SY"/>
+      <xs:enumeration value="TW"/>
+      <xs:enumeration value="TJ"/>
+      <xs:enumeration value="TZ"/>
+      <xs:enumeration value="TH"/>
+      <xs:enumeration value="TL"/>
+      <xs:enumeration value="TG"/>
+      <xs:enumeration value="TK"/>
+      <xs:enumeration value="TO"/>
+      <xs:enumeration value="TT"/>
+      <xs:enumeration value="TN"/>
+      <xs:enumeration value="TR"/>
+      <xs:enumeration value="TM"/>
+      <xs:enumeration value="TC"/>
+      <xs:enumeration value="TV"/>
+      <xs:enumeration value="UG"/>
+      <xs:enumeration value="UA"/>
+      <xs:enumeration value="AE"/>
+      <xs:enumeration value="GB"/>
+      <xs:enumeration value="UM"/>
+      <xs:enumeration value="US"/>
+      <xs:enumeration value="UY"/>
+      <xs:enumeration value="UZ"/>
+      <xs:enumeration value="VU"/>
+      <xs:enumeration value="VE"/>
+      <xs:enumeration value="VN"/>
+      <xs:enumeration value="VG"/>
+      <xs:enumeration value="VI"/>
+      <xs:enumeration value="WF"/>
+      <xs:enumeration value="EH"/>
+      <xs:enumeration value="YE"/>
+      <xs:enumeration value="ZM"/>
+      <xs:enumeration value="ZW"/>
+      <xs:enumeration value="AX"/>
+    </xs:restriction>
+  </xs:simpleType>
+	
+  <xs:simpleType name="CountriesEEA">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="AT"/>
+      <xs:enumeration value="BE"/>
+      <xs:enumeration value="BG"/>
+      <xs:enumeration value="CY"/>
+      <xs:enumeration value="CZ"/>
+      <xs:enumeration value="DE"/>
+      <xs:enumeration value="DK"/>
+      <xs:enumeration value="EE"/>
+      <xs:enumeration value="ES"/>
+      <xs:enumeration value="FI"/>
+      <xs:enumeration value="FR"/>
+      <xs:enumeration value="GR"/>
+      <xs:enumeration value="HR"/>
+      <xs:enumeration value="HU"/>
+      <xs:enumeration value="IE"/>
+      <xs:enumeration value="IS"/>
+      <xs:enumeration value="IT"/>
+      <xs:enumeration value="LI"/>
+      <xs:enumeration value="LT"/>
+      <xs:enumeration value="LU"/>
+      <xs:enumeration value="LV"/>
+      <xs:enumeration value="MT"/>
+      <xs:enumeration value="NL"/>
+      <xs:enumeration value="NO"/>
+      <xs:enumeration value="PL"/>
+      <xs:enumeration value="PT"/>
+      <xs:enumeration value="RO"/>
+      <xs:enumeration value="SE"/>
+      <xs:enumeration value="SI"/>
+      <xs:enumeration value="SK"/>
+    </xs:restriction>
+  </xs:simpleType>
+	
+  <xs:simpleType name="YesNo">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Yes"/>
+      <xs:enumeration value="No"/>
+    </xs:restriction>
+  </xs:simpleType>
+	
+  <xs:simpleType name="Sector">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Mining"/>
+      <xs:enumeration value="Oil_gas"/>
+      <xs:enumeration value="Energy"/>
+      <xs:enumeration value="Defence"/>
+      <xs:enumeration value="Precious_metal"/>
+      <xs:enumeration value="Art_dealer"/>
+      <xs:enumeration value="Crypto"/>
+      <xs:enumeration value="Gambling"/>
+      <xs:enumeration value="Construction"/>
+      <xs:enumeration value="Real_estate"/>
+      <xs:enumeration value="TCSP"/>
+      <xs:enumeration value="Religion"/>
+      <xs:enumeration value="Freight"/>
+      <xs:enumeration value="Advisory"/>
+      <xs:enumeration value="IP"/>
+      <xs:enumeration value="MTOPSP"/>
+      <xs:enumeration value="Pharm"/>
+      <xs:enumeration value="Scrap_dealer"/>
+      <xs:enumeration value="Sale_motor"/>
+      <xs:enumeration value="Sale_boat"/>
+      <xs:enumeration value="Catering"/>
+      <xs:enumeration value="Crowdfunding"/>
+      <xs:enumeration value="Sport"/>
+      <xs:enumeration value="Stockbroker"/>
+      <xs:enumeration value="Financial_service"/>
+      <xs:enumeration value="Other_high_risk"/>
+      <xs:enumeration value="Other_sector"/>
+    </xs:restriction>
+  </xs:simpleType>
+	
+  <xs:simpleType name="BWRAConducted">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Yes"/>
+      <xs:enumeration value="No"/>
+      <xs:enumeration value="Exemption_applies"/>
+    </xs:restriction>
+  </xs:simpleType>
+	
+  <xs:simpleType name="Frequency">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="None"/>
+      <xs:enumeration value="Ad_hoc"/>
+      <xs:enumeration value="Monthly"/>
+      <xs:enumeration value="Quarterly"/>
+      <xs:enumeration value="Every_6_months"/>
+      <xs:enumeration value="Yearly"/>
+      <xs:enumeration value="1_years-2_years"/>
+      <xs:enumeration value="2_years-3_years"/>
+      <xs:enumeration value="3_years-4_years"/>
+      <xs:enumeration value="4_years-5_years"/>
+      <xs:enumeration value="Only_every_5_years_or_less"/>
+    </xs:restriction>
+  </xs:simpleType>
+	
+  <xs:simpleType name="YesNoNA">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Yes"/>
+      <xs:enumeration value="No"/>
+      <xs:enumeration value="N/A"/>
+    </xs:restriction>
+  </xs:simpleType>
+	
+  <xs:simpleType name="CDD">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Yes_in_all_cases"/>
+      <xs:enumeration value="Yes_only_in_enhanced_CDD_cases"/>
+      <xs:enumeration value="No"/>
+    </xs:restriction>
+  </xs:simpleType>
+	
+  <xs:simpleType name="MonitoringApproach">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Yes_manually"/>
+      <xs:enumeration value="Yes_automatically"/>
+      <xs:enumeration value="Yes_manually_and_automatically"/>
+      <xs:enumeration value="No_transaction_monitoring"/>
+    </xs:restriction>
+  </xs:simpleType>
+	
+  <xs:simpleType name="ModelValidation">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Yes_quantitatively"/>
+      <xs:enumeration value="Yes_qualitatively"/>
+      <xs:enumeration value="Yes_quantitatively_and_qualitatively"/>
+      <xs:enumeration value="No"/>
+      <xs:enumeration value="N/A"/>
+    </xs:restriction>
+  </xs:simpleType>
+	
+  <xs:simpleType name="DetectionTime">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Real_time"/>
+      <xs:enumeration value="Post_event"/>
+      <xs:enumeration value="Real_time_and_post_event"/>
+      <xs:enumeration value="No_detection"/>
+    </xs:restriction>
+  </xs:simpleType>
+	
+  <xs:simpleType name="Outsource">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="No"/>
+      <xs:enumeration value="No_but_concrete_plans_to_outsource_in_future"/>
+      <xs:enumeration value="Yes_entities_within_group"/>
+      <xs:enumeration value="Yes_completely_or_partially_to_non_group_entities"/>
+    </xs:restriction>
+  </xs:simpleType>
+	
+  <xs:simpleType name="String2000">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="2050"/>
+      <!--ASCII printable characters plus € plus £ only. No empty/exclusively blank spaces allowed-->
+      <xs:pattern value="[ -~&amp;#163;&amp;#8364;]*[!-~&amp;#163;&amp;#8364;][ -~&amp;#163;&amp;#8364;]*"/>
+    </xs:restriction>
+  </xs:simpleType>
+	
+  <xs:simpleType name="String500">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="550"/>
+      <!--ASCII printable characters plus € plus £ only. No empty/exclusively blank spaces allowed-->
+      <xs:pattern value="[ -~&amp;#163;&amp;#8364;]*[!-~&amp;#163;&amp;#8364;][ -~&amp;#163;&amp;#8364;]*"/>
+    </xs:restriction>
+  </xs:simpleType>
+	
+  <xs:simpleType name="String100">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="150"/>
+      <!--ASCII printable characters plus € plus £ only. No empty/exclusively blank spaces allowed-->
+      <xs:pattern value="[ -~&amp;#163;&amp;#8364;]*[!-~&amp;#163;&amp;#8364;][ -~&amp;#163;&amp;#8364;]*"/>
+    </xs:restriction>
+  </xs:simpleType>
+	
+  <xs:simpleType name="Percentage">
+    <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="0.000000"/>
+      <xs:maxInclusive value="1.000000"/>
+      <xs:totalDigits value="7"/>
+      <xs:fractionDigits value="6"/>
+    </xs:restriction>
+  </xs:simpleType>
+	
+  <xs:simpleType name="Decimal206">
+    <xs:restriction base="xs:decimal">
+      <xs:totalDigits value="21"/>
+      <xs:fractionDigits value="6"/>
+    </xs:restriction>
+  </xs:simpleType>
+	
+  <xs:simpleType name="NoNegInt20">
+    <xs:restriction base="xs:nonNegativeInteger">
+      <xs:maxInclusive value="2147483647"/>
+    </xs:restriction>
+  </xs:simpleType>
+	
+  <xs:simpleType name="ReportDate">
+    <xs:restriction base="xs:date">
+      <xs:minInclusive value="2000-01-01"/>
+      <xs:maxInclusive value="2099-12-31"/>
+    </xs:restriction>
+  </xs:simpleType>
+	  
+  <xs:simpleType name="LEI">
+    <xs:restriction base="xs:string">
+      <xs:length value="20"/>
+      <xs:pattern value="[A-Z0-9]{20}"/>
+    </xs:restriction>
+  </xs:simpleType>
+	
+  <xs:simpleType name="GeneralCloseTableRowIdentifier">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="LAA"/>
+      <xs:enumeration value="LAB"/>
+      <xs:enumeration value="LAC"/>
+      <xs:enumeration value="LAD"/>
+      <xs:enumeration value="LAE"/>
+      <xs:enumeration value="LAF"/>
+      <xs:enumeration value="LAG"/>
+      <xs:enumeration value="LAH"/>
+      <xs:enumeration value="LAI"/>
+      <xs:enumeration value="LAJ"/>
+      <xs:enumeration value="LAK"/>
+      <xs:enumeration value="LAL"/>
+      <xs:enumeration value="LAM"/>
+      <xs:enumeration value="LAN"/>
+      <xs:enumeration value="LAO"/>
+      <xs:enumeration value="LAP"/>
+      <xs:enumeration value="LAQ"/>
+      <xs:enumeration value="LAW"/>
+      <xs:enumeration value="LAX"/>
+      <xs:enumeration value="LAY"/>
+      <xs:enumeration value="LAZ"/>
+      <xs:enumeration value="LBA"/>
+    </xs:restriction>
+  </xs:simpleType>
+	
+  <xs:simpleType name="InherentRiskCloseTableRowIdentifier">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="LBS"/>
+      <xs:enumeration value="LBT"/>
+      <xs:enumeration value="LBU"/>
+    </xs:restriction>
+  </xs:simpleType>
+	
+  <xs:simpleType name="MitigationAndControlCloseTableRowIdentifier">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="LBV"/>
+      <xs:enumeration value="LBW"/>
+      <xs:enumeration value="LBX"/>
+      <xs:enumeration value="LBY"/>
+      <xs:enumeration value="LBZ"/>
+      <xs:enumeration value="LCA"/>
+      <xs:enumeration value="LCB"/>
+      <xs:enumeration value="LCC"/>
+      <xs:enumeration value="LCD"/>
+      <xs:enumeration value="LCE"/>
+      <xs:enumeration value="LCF"/>
+      <xs:enumeration value="LCG"/>
+      <xs:enumeration value="LCH"/>
+      <xs:enumeration value="LCI"/>
+      <xs:enumeration value="LCJ"/>
+      <xs:enumeration value="LCK"/>
+      <xs:enumeration value="LCL"/>
+      <xs:enumeration value="LCM"/>
+      <xs:enumeration value="LCN"/>
+      <xs:enumeration value="LCO"/>
+      <xs:enumeration value="LCP"/>
+      <xs:enumeration value="LCQ"/>
+      <xs:enumeration value="LCR"/>
+      <xs:enumeration value="LCS"/>
+      <xs:enumeration value="LCT"/>
+      <xs:enumeration value="LCU"/>
+      <xs:enumeration value="LCV"/>
+      <xs:enumeration value="LCW"/>
+      <xs:enumeration value="LCX"/>
+      <xs:enumeration value="LCY"/>
+      <xs:enumeration value="LCZ"/>
+      <xs:enumeration value="LDA"/>
+      <xs:enumeration value="LDB"/>
+      <xs:enumeration value="LDC"/>
+      <xs:enumeration value="LDD"/>
+      <xs:enumeration value="LDE"/>
+      <xs:enumeration value="LDF"/>
+      <xs:enumeration value="LDG"/>
+      <xs:enumeration value="LDH"/>
+      <xs:enumeration value="LDI"/>
+      <xs:enumeration value="LDJ"/>
+      <xs:enumeration value="LDK"/>
+      <xs:enumeration value="LDL"/>
+      <xs:enumeration value="LDM"/>
+      <xs:enumeration value="LDN"/>
+      <xs:enumeration value="LDO"/>
+      <xs:enumeration value="LDP"/>
+      <xs:enumeration value="LDQ"/>
+      <xs:enumeration value="LDR"/>
+      <xs:enumeration value="LDS"/>
+      <xs:enumeration value="LDT"/>
+      <xs:enumeration value="LDU"/>
+      <xs:enumeration value="LDV"/>
+      <xs:enumeration value="LDW"/>
+      <xs:enumeration value="LDX"/>
+      <xs:enumeration value="LDY"/>
+      <xs:enumeration value="LDZ"/>
+      <xs:enumeration value="LEA"/>
+      <xs:enumeration value="LEB"/>
+      <xs:enumeration value="LEC"/>
+      <xs:enumeration value="LED"/>
+      <xs:enumeration value="LEE"/>
+      <xs:enumeration value="LEF"/>
+      <xs:enumeration value="LEG"/>
+      <xs:enumeration value="LEH"/>
+      <xs:enumeration value="LEI"/>
+      <xs:enumeration value="LEJ"/>
+      <xs:enumeration value="LEK"/>
+      <xs:enumeration value="LEL"/>
+      <xs:enumeration value="LEM"/>
+      <xs:enumeration value="LEN"/>
+      <xs:enumeration value="LEO"/>
+      <xs:enumeration value="LEP"/>
+      <xs:enumeration value="LEQ"/>
+      <xs:enumeration value="LER"/>
+      <xs:enumeration value="LES"/>
+      <xs:enumeration value="LET"/>
+      <xs:enumeration value="LEU"/>
+      <xs:enumeration value="LEV"/>
+      <xs:enumeration value="LEW"/>
+      <xs:enumeration value="LEX"/>
+      <xs:enumeration value="LEY"/>
+      <xs:enumeration value="LEZ"/>
+      <xs:enumeration value="LFA"/>
+      <xs:enumeration value="LFB"/>
+      <xs:enumeration value="LFC"/>
+      <xs:enumeration value="LFD"/>
+      <xs:enumeration value="LFE"/>
+      <xs:enumeration value="LFF"/>
+      <xs:enumeration value="LFG"/>
+      <xs:enumeration value="LFH"/>
+      <xs:enumeration value="LFI"/>
+      <xs:enumeration value="LFJ"/>
+      <xs:enumeration value="LFK"/>
+      <xs:enumeration value="LFL"/>
+      <xs:enumeration value="LFM"/>
+      <xs:enumeration value="LFN"/>
+      <xs:enumeration value="LFO"/>
+      <xs:enumeration value="LFP"/>
+      <xs:enumeration value="LFQ"/>
+      <xs:enumeration value="LFR"/>
+      <xs:enumeration value="LFS"/>
+      <xs:enumeration value="LFT"/>
+      <xs:enumeration value="LFU"/>
+      <xs:enumeration value="LFV"/>
+      <xs:enumeration value="LFW"/>
+      <xs:enumeration value="LFX"/>
+      <xs:enumeration value="LFY"/>
+      <xs:enumeration value="LFZ"/>
+      <xs:enumeration value="LGA"/>
+      <xs:enumeration value="LGB"/>
+      <xs:enumeration value="LGC"/>
+      <xs:enumeration value="LGD"/>
+      <xs:enumeration value="LGE"/>
+      <xs:enumeration value="LGF"/>
+      <xs:enumeration value="LGG"/>
+      <xs:enumeration value="LGH"/>
+      <xs:enumeration value="LGI"/>
+      <xs:enumeration value="LGJ"/>
+      <xs:enumeration value="LGK"/>
+      <xs:enumeration value="LGL"/>
+      <xs:enumeration value="LGM"/>
+      <xs:enumeration value="LGN"/>
+      <xs:enumeration value="LGO"/>
+      <xs:enumeration value="LGP"/>
+      <xs:enumeration value="LGQ"/>
+      <xs:enumeration value="LGR"/>
+      <xs:enumeration value="LGS"/>
+      <xs:enumeration value="LGT"/>
+      <xs:enumeration value="LGU"/>
+      <xs:enumeration value="LGV"/>
+      <xs:enumeration value="LGW"/>
+      <xs:enumeration value="LGX"/>
+      <xs:enumeration value="LGY"/>
+      <xs:enumeration value="LGZ"/>
+      <xs:enumeration value="LHA"/>
+      <xs:enumeration value="LHB"/>
+      <xs:enumeration value="LHC"/>
+      <xs:enumeration value="LHD"/>
+      <xs:enumeration value="LHE"/>
+      <xs:enumeration value="LHF"/>
+      <xs:enumeration value="LHG"/>
+      <xs:enumeration value="LHH"/>
+      <xs:enumeration value="LHI"/>
+      <xs:enumeration value="LHJ"/>
+      <xs:enumeration value="LHK"/>
+      <xs:enumeration value="LHL"/>
+      <xs:enumeration value="LHM"/>
+      <xs:enumeration value="LHN"/>
+      <xs:enumeration value="LHO"/>
+      <xs:enumeration value="LHP"/>
+      <xs:enumeration value="LHQ"/>
+      <xs:enumeration value="LHR"/>
+      <xs:enumeration value="LHS"/>
+      <xs:enumeration value="LHT"/>
+      <xs:enumeration value="LHU"/>
+      <xs:enumeration value="LHV"/>
+      <xs:enumeration value="LHW"/>
+      <xs:enumeration value="LHX"/>
+      <xs:enumeration value="LHY"/>
+      <xs:enumeration value="LHZ"/>
+      <xs:enumeration value="LIA"/>
+      <xs:enumeration value="LIB"/>
+      <xs:enumeration value="LIC"/>
+      <xs:enumeration value="LID"/>
+      <xs:enumeration value="LIE"/>
+      <xs:enumeration value="LIF"/>
+      <xs:enumeration value="LIG"/>
+      <xs:enumeration value="LIH"/>
+      <xs:enumeration value="LII"/>
+      <xs:enumeration value="LIJ"/>
+      <xs:enumeration value="LIK"/>
+      <xs:enumeration value="LIL"/>
+      <xs:enumeration value="LIM"/>
+      <xs:enumeration value="LIN"/>
+      <xs:enumeration value="LIO"/>
+      <xs:enumeration value="LIP"/>
+      <xs:enumeration value="LIQ"/>
+      <xs:enumeration value="LIR"/>
+      <xs:enumeration value="LIS"/>
+      <xs:enumeration value="LIT"/>
+      <xs:enumeration value="LIU"/>
+      <xs:enumeration value="LIV"/>
+      <xs:enumeration value="LIW"/>
+      <xs:enumeration value="LIX"/>
+      <xs:enumeration value="LIY"/>
+      <xs:enumeration value="LIZ"/>
+      <xs:enumeration value="LJA"/>
+      <xs:enumeration value="LJB"/>
+      <xs:enumeration value="LJC"/>
+      <xs:enumeration value="LJD"/>
+      <xs:enumeration value="LJE"/>
+      <xs:enumeration value="LJF"/>
+      <xs:enumeration value="LJG"/>
+      <xs:enumeration value="LJH"/>
+      <xs:enumeration value="LJI"/>
+      <xs:enumeration value="LJJ"/>
+      <xs:enumeration value="LJK"/>
+      <xs:enumeration value="LJL"/>
+      <xs:enumeration value="LJM"/>
+      <xs:enumeration value="LJN"/>
+      <xs:enumeration value="LJO"/>
+      <xs:enumeration value="LJP"/>
+      <xs:enumeration value="LJQ"/>
+      <xs:enumeration value="LJR"/>
+      <xs:enumeration value="LJS"/>
+      <xs:enumeration value="LJT"/>
+      <xs:enumeration value="LJU"/>
+      <xs:enumeration value="LJV"/>
+      <xs:enumeration value="LJW"/>
+      <xs:enumeration value="LJX"/>
+      <xs:enumeration value="LJY"/>
+      <xs:enumeration value="LJZ"/>
+      <xs:enumeration value="LKA"/>
+      <xs:enumeration value="LKB"/>
+      <xs:enumeration value="LKC"/>
+      <xs:enumeration value="LKD"/>
+      <xs:enumeration value="LKE"/>
+      <xs:enumeration value="LKF"/>
+      <xs:enumeration value="LKG"/>
+      <xs:enumeration value="LKH"/>
+      <xs:enumeration value="LKI"/>
+      <xs:enumeration value="LKJ"/>
+      <xs:enumeration value="LKK"/>
+      <xs:enumeration value="LKL"/>
+      <xs:enumeration value="LKM"/>
+      <xs:enumeration value="LKN"/>
+      <xs:enumeration value="LKO"/>
+      <xs:enumeration value="LKP"/>
+      <xs:enumeration value="LKQ"/>
+      <xs:enumeration value="LKR"/>
+      <xs:enumeration value="LKS"/>
+      <xs:enumeration value="LKT"/>
+      <xs:enumeration value="LKU"/>
+      <xs:enumeration value="LKV"/>
+      <xs:enumeration value="LKW"/>
+      <xs:enumeration value="LKX"/>
+      <xs:enumeration value="LKY"/>
+      <xs:enumeration value="LKZ"/>
+      <xs:enumeration value="LLA"/>
+      <xs:enumeration value="LLB"/>
+      <xs:enumeration value="LLC"/>
+      <xs:enumeration value="LLD"/>
+      <xs:enumeration value="LLE"/>
+      <xs:enumeration value="LLF"/>
+      <xs:enumeration value="LLG"/>
+      <xs:enumeration value="LLH"/>
+      <xs:enumeration value="LLI"/>
+      <xs:enumeration value="LLJ"/>
+      <xs:enumeration value="LLK"/>
+      <xs:enumeration value="LLL"/>
+      <xs:enumeration value="LLM"/>
+      <xs:enumeration value="LLN"/>
+      <xs:enumeration value="LLO"/>
+      <xs:enumeration value="LLP"/>
+      <xs:enumeration value="LLQ"/>
+      <xs:enumeration value="LLR"/>
+      <xs:enumeration value="LLS"/>
+      <xs:enumeration value="LLT"/>
+      <xs:enumeration value="LLU"/>
+      <xs:enumeration value="LLV"/>
+      <xs:enumeration value="LLW"/>
+      <xs:enumeration value="LLX"/>
+      <xs:enumeration value="LLY"/>
+      <xs:enumeration value="LLZ"/>
+      <xs:enumeration value="LMA"/>
+      <xs:enumeration value="LMB"/>
+      <xs:enumeration value="LMC"/>
+      <xs:enumeration value="LMD"/>
+      <xs:enumeration value="LME"/>
+      <xs:enumeration value="LMF"/>
+      <xs:enumeration value="LMG"/>
+      <xs:enumeration value="LMH"/>
+      <xs:enumeration value="LMI"/>
+      <xs:enumeration value="LMJ"/>
+      <xs:enumeration value="LMK"/>
+      <xs:enumeration value="LML"/>
+      <xs:enumeration value="LMM"/>
+      <xs:enumeration value="LMN"/>
+      <xs:enumeration value="LMO"/>
+      <xs:enumeration value="LMP"/>
+      <xs:enumeration value="LMQ"/>
+      <xs:enumeration value="LMR"/>
+      <xs:enumeration value="LMS"/>
+      <xs:enumeration value="LMT"/>
+      <xs:enumeration value="LMU"/>
+      <xs:enumeration value="LMV"/>
+      <xs:enumeration value="LMW"/>
+      <xs:enumeration value="LMX"/>
+      <xs:enumeration value="LMY"/>
+      <xs:enumeration value="LMZ"/>
+      <xs:enumeration value="LNA"/>
+      <xs:enumeration value="LNB"/>
+      <xs:enumeration value="LNC"/>
+      <xs:enumeration value="LND"/>
+      <xs:enumeration value="LNE"/>
+      <xs:enumeration value="LNF"/>
+      <xs:enumeration value="LNG"/>
+      <xs:enumeration value="LNH"/>
+      <xs:enumeration value="LNI"/>
+      <xs:enumeration value="LNJ"/>
+      <xs:enumeration value="LNK"/>
+      <xs:enumeration value="LNL"/>
+      <xs:enumeration value="LNM"/>
+      <xs:enumeration value="LNN"/>
+      <xs:enumeration value="LNO"/>
+      <xs:enumeration value="LNP"/>
+      <xs:enumeration value="LNQ"/>
+      <xs:enumeration value="LNR"/>
+      <xs:enumeration value="LNS"/>
+      <xs:enumeration value="LNT"/>
+      <xs:enumeration value="LNU"/>
+      <xs:enumeration value="LNV"/>
+      <xs:enumeration value="LNW"/>
+      <xs:enumeration value="LNX"/>
+      <xs:enumeration value="LNY"/>
+      <xs:enumeration value="LNZ"/>
+      <xs:enumeration value="LOA"/>
+      <xs:enumeration value="LOB"/>
+      <xs:enumeration value="LOC"/>
+      <xs:enumeration value="LOD"/>
+      <xs:enumeration value="LOE"/>
+      <xs:enumeration value="LOF"/>
+      <xs:enumeration value="LOG"/>
+      <xs:enumeration value="LOH"/>
+      <xs:enumeration value="LOI"/>
+      <xs:enumeration value="LOJ"/>
+      <xs:enumeration value="LOK"/>
+      <xs:enumeration value="LOL"/>
+      <xs:enumeration value="LOM"/>
+      <xs:enumeration value="LON"/>
+      <xs:enumeration value="LOO"/>
+      <xs:enumeration value="LOP"/>
+      <xs:enumeration value="LOQ"/>
+      <xs:enumeration value="LOR"/>
+      <xs:enumeration value="LOS"/>
+      <xs:enumeration value="LOT"/>
+      <xs:enumeration value="LOU"/>
+      <xs:enumeration value="LOV"/>
+      <xs:enumeration value="LOW"/>
+      <xs:enumeration value="LOX"/>
+      <xs:enumeration value="LOY"/>
+      <xs:enumeration value="LOZ"/>
+      <xs:enumeration value="LPA"/>
+      <xs:enumeration value="LPB"/>
+      <xs:enumeration value="LPC"/>
+      <xs:enumeration value="LPD"/>
+      <xs:enumeration value="LPE"/>
+      <xs:enumeration value="LPF"/>
+      <xs:enumeration value="LPG"/>
+      <xs:enumeration value="LPH"/>
+      <xs:enumeration value="LPI"/>
+      <xs:enumeration value="LPJ"/>
+      <xs:enumeration value="LPK"/>
+      <xs:enumeration value="LPL"/>
+      <xs:enumeration value="LPM"/>
+      <xs:enumeration value="LPN"/>
+      <xs:enumeration value="LPO"/>
+      <xs:enumeration value="LPP"/>
+      <xs:enumeration value="LPQ"/>
+      <xs:enumeration value="LPR"/>
+      <xs:enumeration value="LPS"/>
+      <xs:enumeration value="LPT"/>
+      <xs:enumeration value="LPU"/>
+      <xs:enumeration value="LPV"/>
+      <xs:enumeration value="LPW"/>
+      <xs:enumeration value="LPX"/>
+      <xs:enumeration value="LPY"/>
+      <xs:enumeration value="LPZ"/>
+      <xs:enumeration value="LQA"/>
+      <xs:enumeration value="LQB"/>
+      <xs:enumeration value="LQC"/>
+      <xs:enumeration value="LQD"/>
+      <xs:enumeration value="LQE"/>
+      <xs:enumeration value="LQF"/>
+      <xs:enumeration value="LQG"/>
+      <xs:enumeration value="LQH"/>
+      <xs:enumeration value="LQI"/>
+      <xs:enumeration value="LQJ"/>
+      <xs:enumeration value="LQK"/>
+      <xs:enumeration value="LQL"/>
+      <xs:enumeration value="LQM"/>
+      <xs:enumeration value="LQN"/>
+      <xs:enumeration value="LQO"/>
+      <xs:enumeration value="LQP"/>
+      <xs:enumeration value="LQQ"/>
+      <xs:enumeration value="LQR"/>
+      <xs:enumeration value="LQS"/>
+      <xs:enumeration value="LQT"/>
+      <xs:enumeration value="LQU"/>
+      <xs:enumeration value="LQV"/>
+      <xs:enumeration value="LQW"/>
+      <xs:enumeration value="LQX"/>
+      <xs:enumeration value="LQY"/>
+      <xs:enumeration value="LQZ"/>
+      <xs:enumeration value="LRA"/>
+      <xs:enumeration value="LRB"/>
+      <xs:enumeration value="LRC"/>
+      <xs:enumeration value="LRD"/>
+      <xs:enumeration value="LRE"/>
+      <xs:enumeration value="LRF"/>
+      <xs:enumeration value="LRG"/>
+      <xs:enumeration value="LRH"/>
+      <xs:enumeration value="LRI"/>
+      <xs:enumeration value="LRJ"/>
+      <xs:enumeration value="LRK"/>
+      <xs:enumeration value="LRL"/>
+      <xs:enumeration value="LRM"/>
+      <xs:enumeration value="LRN"/>
+      <xs:enumeration value="LRO"/>
+      <xs:enumeration value="LRP"/>
+      <xs:enumeration value="LRQ"/>
+      <xs:enumeration value="LRR"/>
+      <xs:enumeration value="LRS"/>
+      <xs:enumeration value="LRT"/>
+      <xs:enumeration value="LRU"/>
+      <xs:enumeration value="LRV"/>
+      <xs:enumeration value="LRW"/>
+      <xs:enumeration value="LRX"/>
+      <xs:enumeration value="LRY"/>
+      <xs:enumeration value="LRZ"/>
+      <xs:enumeration value="LSA"/>
+      <xs:enumeration value="LSB"/>
+      <xs:enumeration value="LSC"/>
+      <xs:enumeration value="LSD"/>
+      <xs:enumeration value="LSE"/>
+      <xs:enumeration value="LSF"/>
+      <xs:enumeration value="LSG"/>
+      <xs:enumeration value="LSH"/>
+      <xs:enumeration value="LSI"/>
+      <xs:enumeration value="LSJ"/>
+    </xs:restriction>
+  </xs:simpleType>
+	
+  <xs:element name="FundAdmin">
+    <xs:complexType>
+      <xs:sequence>
+        <!--General-->
+        <xs:element ref="A12:A1201A"/>
+        <!--General International Presence-->
+        <xs:element ref="A12:A1201B"/>
+        <!--Inherent Risk Funds-->
+        <xs:element ref="A12:A1202A"/>
+        <!--Inherent Risk Sector-->
+        <xs:element ref="A12:A1202B"/>
+        <!--Inherent Risk-->
+        <xs:element ref="A12:A1202C"/>
+        <!--Mitigation And Control-->
+        <xs:element ref="A12:A1203A"/>
+        <!--Physical Presence-->
+        <xs:element ref="A12:A1204"/>
+        <!--Residence And Establishment-->
+        <xs:element ref="A12:A1205"/>
+        <!--Beneficial Owner-->
+        <xs:element ref="A12:A1206"/>
+        <!--Politically Exposed Person-->
+        <xs:element ref="A12:A1207"/>
+        <!--Geography Of Funds Flow-->
+        <xs:element ref="A12:A1208"/>
+        <!--Transaction Monitoring-->
+        <xs:element ref="A12:A1209"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+	
+  <xs:element name="A1201A">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="A12011" minOccurs="22" maxOccurs="22">
+          <xs:complexType>
+            <xs:attribute name="Identifier" type="A12:GeneralCloseTableRowIdentifier" use="required"/>
+            <xs:attribute name="EnumerationLegalStructure" type="A12:LegalStructure"/>
+            <xs:attribute name="String500" type="A12:String500"/>
+            <xs:attribute name="LEI" type="A12:LEI"/>
+            <xs:attribute name="EnumerationCountryEEANA" type="A12:CountriesEEANA"/>
+            <xs:attribute name="EnumerationCountry" type="A12:Country"/>
+            <xs:attribute name="EnumerationYesNo" type="A12:YesNo"/>
+            <xs:attribute name="String100" type="A12:String100"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+	
+  <xs:element name="A1201B">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="A12012" minOccurs="30" maxOccurs="30">
+          <xs:complexType>
+            <xs:attribute name="LAR" type="A12:CountriesEEA" use="required"/>
+            <xs:attribute name="LAS" type="A12:NoNegInt20" use="required"/>
+            <xs:attribute name="LAT" type="A12:Decimal206" use="required"/>
+            <xs:attribute name="LAU" type="A12:NoNegInt20" use="required"/>
+            <xs:attribute name="LAV" type="A12:Decimal206" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+	
+  <xs:element name="A1202A">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="A12021" minOccurs="1" maxOccurs="250">
+          <xs:complexType>
+            <xs:attribute name="LBB" type="A12:NoNegInt20" use="required"/>
+            <xs:attribute name="LBC" type="A12:Country" use="required"/>
+            <xs:attribute name="LBD" type="A12:NoNegInt20" use="required"/>
+            <xs:attribute name="LBE" type="A12:NoNegInt20" use="required"/>
+            <xs:attribute name="LBF" type="A12:NoNegInt20" use="required"/>
+            <xs:attribute name="LBG" type="A12:NoNegInt20" use="required"/>
+            <xs:attribute name="LBH" type="A12:NoNegInt20" use="required"/>
+            <xs:attribute name="LBI" type="A12:NoNegInt20" use="required"/>
+            <xs:attribute name="LBJ" type="A12:NoNegInt20" use="required"/>
+            <xs:attribute name="LBK" type="A12:NoNegInt20" use="required"/>
+            <xs:attribute name="LBL" type="A12:NoNegInt20" use="required"/>
+            <xs:attribute name="LBM" type="A12:NoNegInt20" use="required"/>
+            <xs:attribute name="LBN" type="A12:NoNegInt20" use="required"/>
+            <xs:attribute name="LBO" type="A12:NoNegInt20" use="required"/>
+            <xs:attribute name="LBP" type="A12:NoNegInt20" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+	
+  <xs:element name="A1202B">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="A12022" minOccurs="27" maxOccurs="27">
+          <xs:complexType>
+            <xs:attribute name="LBQ" type="A12:Sector" use="required"/>
+            <xs:attribute name="LBR" type="A12:NoNegInt20" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+	
+  <xs:element name="A1202C">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="A12023" minOccurs="3" maxOccurs="3">
+          <xs:complexType>
+            <xs:attribute name="Identifier" type="A12:InherentRiskCloseTableRowIdentifier" use="required"/>
+            <xs:attribute name="EnumerationYesNo" type="A12:YesNo"/>
+            <xs:attribute name="IntegerValue" type="A12:NoNegInt20"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+	
+  <xs:element name="A1203A">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="A12031" minOccurs="431" maxOccurs="431">
+          <xs:complexType>
+            <xs:attribute name="Identifier" type="A12:MitigationAndControlCloseTableRowIdentifier" use="required"/>
+            <xs:attribute name="EnumerationBWRAConducted" type="A12:BWRAConducted"/>
+            <xs:attribute name="EnumerationYesNo" type="A12:YesNo"/>
+            <xs:attribute name="DateValue" type="A12:ReportDate"/>
+            <xs:attribute name="EnumerationFrequency" type="A12:Frequency"/>
+            <xs:attribute name="EnumerationYesNoNA" type="A12:YesNoNA"/>
+            <xs:attribute name="String500" type="A12:String500"/>
+            <xs:attribute name="IntegerValue" type="A12:NoNegInt20"/>
+            <xs:attribute name="EnumerationCDD" type="A12:CDD"/>
+            <xs:attribute name="DecimalValue" type="A12:Decimal206"/>
+            <xs:attribute name="PercentageValue" type="A12:Percentage"/>
+            <xs:attribute name="EnumerationMonitoringApproach" type="A12:MonitoringApproach"/>
+            <xs:attribute name="EnumerationModelValidation" type="A12:ModelValidation"/>
+            <xs:attribute name="EnumerationDetectionTime" type="A12:DetectionTime"/>
+            <xs:attribute name="EnumerationOutsource" type="A12:Outsource"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+	
+  <xs:element name="A1204">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="A12041" minOccurs="1" maxOccurs="250">
+          <xs:complexType>
+            <xs:attribute name="LSK" type="A12:Country" use="required"/>
+            <xs:attribute name="LSL" type="A12:NoNegInt20" use="required"/>
+            <xs:attribute name="LSM" type="A12:NoNegInt20" use="required"/>
+            <xs:attribute name="LSN" type="A12:NoNegInt20" use="required"/>
+            <xs:attribute name="LSO" type="A12:NoNegInt20" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+	
+  <xs:element name="A1205">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="A12051" minOccurs="1" maxOccurs="250">
+          <xs:complexType>
+            <xs:attribute name="LSP" type="A12:Country" use="required"/>
+            <xs:attribute name="LSQ" type="A12:NoNegInt20" use="required"/>
+            <xs:attribute name="LSR" type="A12:NoNegInt20" use="required"/>
+            <xs:attribute name="LSS" type="A12:NoNegInt20" use="required"/>
+            <xs:attribute name="LST" type="A12:NoNegInt20" use="required"/>
+            <xs:attribute name="LSU" type="A12:NoNegInt20" use="required"/>
+            <xs:attribute name="LSV" type="A12:NoNegInt20" use="required"/>
+            <xs:attribute name="LSW" type="A12:NoNegInt20" use="required"/>
+            <xs:attribute name="LSX" type="A12:NoNegInt20" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+	
+  <xs:element name="A1206">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="A12061" minOccurs="1" maxOccurs="250">
+          <xs:complexType>
+            <xs:attribute name="LSY" type="A12:Country" use="required"/>
+            <xs:attribute name="LSZ" type="A12:NoNegInt20" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+	
+  <xs:element name="A1207">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="A12071" minOccurs="1" maxOccurs="250">
+          <xs:complexType>
+            <xs:attribute name="LTA" type="A12:Country" use="required"/>
+            <xs:attribute name="LTB" type="A12:NoNegInt20" use="required"/>
+            <xs:attribute name="LTC" type="A12:NoNegInt20" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+	
+  <xs:element name="A1208">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="A12081" minOccurs="1" maxOccurs="250">
+          <xs:complexType>
+            <xs:attribute name="LTD" type="A12:Country" use="required"/>
+            <xs:attribute name="LTE" type="A12:NoNegInt20" use="required"/>
+            <xs:attribute name="LTF" type="A12:NoNegInt20" use="required"/>
+            <xs:attribute name="LTG" type="A12:Decimal206" use="required"/>
+            <xs:attribute name="LTH" type="A12:NoNegInt20" use="required"/>
+            <xs:attribute name="LTI" type="A12:NoNegInt20" use="required"/>
+            <xs:attribute name="LTJ" type="A12:Decimal206" use="required"/>
+            <xs:attribute name="LTK" type="A12:NoNegInt20" use="required"/>
+            <xs:attribute name="LTL" type="A12:NoNegInt20" use="required"/>
+            <xs:attribute name="LTM" type="A12:Decimal206" use="required"/>
+            <xs:attribute name="LTN" type="A12:NoNegInt20" use="required"/>
+            <xs:attribute name="LTO" type="A12:NoNegInt20" use="required"/>
+            <xs:attribute name="LTP" type="A12:Decimal206" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+	
+  <xs:element name="A1209">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="A12091" minOccurs="1" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="LTQ" type="A12:String500" use="required"/>
+            <xs:attribute name="LTR" type="A12:String2000" use="required"/>
+            <xs:attribute name="LTS" type="A12:NoNegInt20" use="required"/>
+            <xs:attribute name="LTT" type="A12:NoNegInt20" use="required"/>
+            <xs:attribute name="LTU" type="A12:NoNegInt20" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+
